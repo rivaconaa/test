@@ -1,0 +1,1570 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Andrian/Documents/GitHub/Rivalytics/Rivalytics",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "KGkKdsX2c22MEZJBZ882ed3k12I5trRoNnlFjw5Gaz8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/COL.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/COL.html",
+          "hash": "B/a3QJxfZzSL3Rxo7JSIk/LmafWpFCN1SL8y/WAeS7g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/ConnMan.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/ConnMan.html",
+          "hash": "93tuPYsywSFp5Y6nCU/zr6x3cKNlYUrGnjx3RoIFGoA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/DEF.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/DEF.html",
+          "hash": "8vj7Mld2h+gZAOs2IYvC6w+E113KNThcNse+VM9L95w="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/EasySQL.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/EasySQL.html",
+          "hash": "vqrZ24odEwigAv0qZ5NYKL1MAlRXc6t7SNtDJ1yI0fc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/FLD.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/FLD.html",
+          "hash": "Ht/egMCgSoHTDPSz3EjoP5Um0M9i11zkpP/4/glBg4A="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Gens.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Gens.html",
+          "hash": "FPO19YbdpSmxqxPPPJf68tssa/qRvoBT8BIy1g6ap5c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/REF.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/REF.html",
+          "hash": "0pVar3mXaX8V1xbvWpiGIkRD0yyo4S/44MnfFQEWmu4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/SET.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/SET.html",
+          "hash": "Yn9LJQhM+zgarECHFVF/2bjtYk/vz+j2TC8eL44kYxY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/TBL.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/TBL.html",
+          "hash": "QR6GvU+45dvBxd+zRwUG0JTEMUUsdt9GwChVCekRAcw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Tools.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Tools.html",
+          "hash": "ImyfzjMBbF2CmQ8CF8bgdvxXOTtH0Rl3hwV13bOZtnU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UNI.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UNI.html",
+          "hash": "w4uafs7msboWNLulldbIF9MPFbiDGa5oBfNWoJ91EeA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/VAL.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/VAL.html",
+          "hash": "5Yy8ywz7Eo6rKW+VhtnySFXTiWB+DuRExBeKrS6INA0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "s6c5hzz9dKavcwPR9CxIGyF2tfWCSne3IT7ckn6PyWM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/COL/customers.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/COL/customers.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/COL/nav.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/COL/nav.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/COL/purchases.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/COL/purchases.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/COL/result_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/COL/result_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/COL/result_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/COL/result_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/COL/settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/COL/settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Class/nav.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Class/nav.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Clust/nav.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Clust/nav.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ConnMan/add_excel.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ConnMan/add_excel.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ConnMan/add_odbc.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ConnMan/add_odbc.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ConnMan/dummy_example.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ConnMan/dummy_example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ConnMan/nav.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ConnMan/nav.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ConnMan/overview.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ConnMan/overview.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DEF/customers2020.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DEF/customers2020.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DEF/customers2021.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DEF/customers2021.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DEF/nav.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DEF/nav.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DEF/result.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DEF/result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DEF/settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DEF/settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FLD/customers.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FLD/customers.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FLD/nav.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FLD/nav.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FLD/purchases.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FLD/purchases.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FLD/result_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FLD/result_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FLD/result_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FLD/result_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FLD/result_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FLD/result_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FLD/settings_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FLD/settings_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FLD/settings_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FLD/settings_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/REF/customers.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/REF/customers.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/REF/executed.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/REF/executed.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/REF/nav.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/REF/nav.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/REF/purchases.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/REF/purchases.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/REF/settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/REF/settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/RIVACON_logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/RIVACON_logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SET/all.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SET/all.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SET/customers2020.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SET/customers2020.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SET/customers2021.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SET/customers2021.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SET/except.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SET/except.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SET/intersect.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SET/intersect.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SET/nav.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SET/nav.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SET/settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SET/settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SET/source_not_target.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SET/source_not_target.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SET/target_not_source.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/SET/target_not_source.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/TBL/customers.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/TBL/customers.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/TBL/nav.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/TBL/nav.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/TBL/purchases.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/TBL/purchases.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/TBL/result.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/TBL/result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/TBL/settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/TBL/settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/UNI/nav.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/UNI/nav.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/UNI/purchases.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/UNI/purchases.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/UNI/result_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/UNI/result_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/UNI/result_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/UNI/result_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/UNI/settings_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/UNI/settings_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/UNI/settings_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/UNI/settings_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/VAL/nav.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/VAL/nav.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/VAL/purchases.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/VAL/purchases.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/VAL/result_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/VAL/result_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/VAL/result_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/VAL/result_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/VAL/settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/VAL/settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/easySQL/example_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/easySQL/example_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/easySQL/example_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/easySQL/example_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/easySQL/example_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/easySQL/example_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/easySQL/nav.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/easySQL/nav.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/easySQL/purchases.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/easySQL/purchases.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/easySQL/result.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/easySQL/result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "8z4Arl9iwSA0e9fpSqeUqrAi9zmqxEiY4klsQfmMAks="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.CollectionExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.CollectionExtensionMethods.html",
+          "hash": "Ot5QtIo2X6Om86Red+CaJU3WAyqFCTUTqmuc6bg5Gdg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.Cryptography.CryptographyHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.Cryptography.CryptographyHelper.html",
+          "hash": "RxhoDIOmaUtYZqxtcAFgJ9XzdYVAPK+iDvM+ZVpI24g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.Cryptography.EncryptedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.Cryptography.EncryptedData.html",
+          "hash": "5PkNab3/f4+b2qrfcq5iEBTAVKzWW1gxbc/xGdzlY6Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.Cryptography.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.Cryptography.html",
+          "hash": "uzLxrw/mwp3jPmzcxfYrezkPMu247ldKgzIEBDG8tus="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.ExcelWorksheetFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.ExcelWorksheetFunctions.html",
+          "hash": "bi1S/At1GG/o6tj9nvd7XEZuLAdkNoxuMDRctVU8zmo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.Globals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.Globals.html",
+          "hash": "PdoejtNr7lOimcPcZ4NXotHRMG2Ozb0u08IfpQimIFw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.HelperFunctions.BoolConversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.HelperFunctions.BoolConversion.html",
+          "hash": "nWBmt7YELJ+YLrnu0YufghR56NLfN2132r01pmd2C3U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.HelperFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.HelperFunctions.html",
+          "hash": "BOcOray7HpLS+OkPuPQqzyjXlCc7UV8hOau54klgPCE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.RibbonControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.RibbonControl.html",
+          "hash": "g91G4ZQNaQNyq8VErO4IO9CzdoqgxC3/mnHBKmTxP08="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.Tetris.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.Tetris.MainWindow.html",
+          "hash": "aIYvRhlQthBkm2MinBn/2iLEqK4XeWwtPG9Sw0S01s4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.Tetris.TetrisShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.Tetris.TetrisShape.html",
+          "hash": "bN/UNna/IDY/fxiIoCN88lj/0wR51KMLA2xWh/f6b4w="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.Tetris.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.Tetris.html",
+          "hash": "8Z3u3yO3R5QS3hQ21+RJnLJy/tw58IbqE2vZb2ikSX0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.Utilities.UtilBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.Utilities.UtilBox.html",
+          "hash": "aHs0eIZRa/s/uBuq8Yz1yOyZsTaeC61vV934mB9X0tg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.Utilities.dateUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.Utilities.dateUtilities.html",
+          "hash": "IAE1dpxTVhhtG59XgzmLfo0+3mNFSWyDWNowMRsTZ+o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.Utilities.html",
+          "hash": "NjI1NOeOX8+C5I8Hx8fY1mDQnKIfXFVfknSBmL0yVSU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Models.DBColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Models.DBColumn.html",
+          "hash": "119/hJPWXYJsvyVnC6mzYKF8Bss+5FyqJDGWP1cD0aY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Models.DBConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Models.DBConnection.html",
+          "hash": "VWe5FipJIId3UycoS/CwkdedsVuK/qAtr3XcD2ybR/o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Models.DBSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Models.DBSchema.html",
+          "hash": "WhacYUmR+hi1k7k5sxuY09Fw6S8usMF/Rz0iA2BGPb8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Models.DBTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Models.DBTable.html",
+          "hash": "w8em5yUz+HFnZjcYjPEvbV58R03FN4375z33rL2pTxc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Models.MyCompletionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Models.MyCompletionData.html",
+          "hash": "ZJQtb3l8UkIabmZrn6c/ao7lANxpyFAhw6mLtWgaocQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Models.MyCompletionDataEqualityComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Models.MyCompletionDataEqualityComparer.html",
+          "hash": "JGBUC4XWUdsAgRM5RXcusdYs4GvcBRPHwdJsYMKbbRg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Models.ObservableDBConnectionCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Models.ObservableDBConnectionCollection.html",
+          "hash": "RUGtURvnr6RVupPiX8b7ni71hrbs8eM8YQOBn7BEcc4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Models.html",
+          "hash": "4oZKosqkum3Gkd9OmRnSgNS5RGbJFPL7RRa+Ycxd2c8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.ViewModels.Commands.SelectWorkbookCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.ViewModels.Commands.SelectWorkbookCommand.html",
+          "hash": "ARYReG5jOAuwawaB2/Ulrv3rvTiVwQnxuG7Mg53oq+I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.ViewModels.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.ViewModels.Commands.html",
+          "hash": "SIZim0MZAYdbkKP9ySBB4dkyfH37JWYEKn3JyY7EGkQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.ViewModels.Converters.MyConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.ViewModels.Converters.MyConverter.html",
+          "hash": "K6S6edvDt/2d9aYMuEjX90IdCi6eLQYD5rnKc01pI7o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.ViewModels.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.ViewModels.Converters.html",
+          "hash": "W+v71IFUTj338jMS+dgIBwLrCzzIk5wDpaV0c3hs4t8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.ViewModels.ViewModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.ViewModels.ViewModelBase.html",
+          "hash": "FLWY5icHy10r8Z1vhTPFJ19qM6qSDvFGCWm4xoKbOK0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.ViewModels.ViewModelConnectionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.ViewModels.ViewModelConnectionManager.html",
+          "hash": "s2/l9rZdFYWtSeMcqgdW7KqcPxiVqHulwGSR0j6otO0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.ViewModels.ViewModelSQLEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.ViewModels.ViewModelSQLEditor.html",
+          "hash": "vyYMr8q5sqrC0Yf6i+ZPaDGjPVvvHnwHl+HMqoy/2q8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.ViewModels.html",
+          "hash": "R6hhCQf0VkxOsvbrJ4w1fsp5PUZYf+5VqFVZaIRq1KU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.UserControls.ActiveConnectionsDropDown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.UserControls.ActiveConnectionsDropDown.html",
+          "hash": "k2T1ZyS962wn+MsMeg0QKB/Kc6g24W+8uPJTGZUca6s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.UserControls.ActiveConnectionsListView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.UserControls.ActiveConnectionsListView.html",
+          "hash": "uA0FfpkHqn2lE1qjH6qJgPhMRq8DMVLJ4KGxaBDNevE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.UserControls.ControlPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.UserControls.ControlPanel.html",
+          "hash": "IjidPbarcsDkT8NZWZ3mVvrtyLz3MW8IzQkjVWIn/x8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.UserControls.DBTreeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.UserControls.DBTreeView.html",
+          "hash": "aoH+wKxEjnMdJLDPSrQxCbxvoiKqU0NBOf0jpmBTEdo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.UserControls.SQLEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.UserControls.SQLEditor.html",
+          "hash": "ZUO7xHrcu/XGEkTj9wVo8H9yf/DLJLH/SsWLfindZ/8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.UserControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.UserControls.html",
+          "hash": "+8WpaTg39LFwTEuH26k6h7MHn/RWg9VE788qpRlW0mo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.About.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.About.html",
+          "hash": "D3KbzpK057CGtgDeRDJvbdDoW09WGpBec5t8yCWs8tc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.COL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.COL.html",
+          "hash": "35rrClHf+sRVdzSyI2d1Jt8iQu2BzHfG+BXyx2s9hvY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.ConnectionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.ConnectionManager.html",
+          "hash": "Jc7b4xKZFs8lP7Q4CNMsmzXR4nBRJVNDTU8SA2x+0sQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.ConnectionProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.ConnectionProperties.html",
+          "hash": "3GvDareNB8o1rd3w2RVt7lwqKXP2AaAjB15mhHA2xZA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.Contact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.Contact.html",
+          "hash": "4zgACm6MPeUXdjDUK8yL4Z1nv/lOOyripmlJqYjH27w="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.DEF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.DEF.html",
+          "hash": "9fpUftvtcqonoQ5iN/nBqhVRszamDZpRHZaUF/1QjZc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.FLD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.FLD.html",
+          "hash": "Il1CLenijd7JPPpeKBkLf27Q3bPG503OwC4bnD0kVDU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.PasswordInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.PasswordInput.html",
+          "hash": "P+vKUy81GDJc8mfwP86ZMNJBoktapY9AUJtGJ8XIRXQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.REF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.REF.html",
+          "hash": "bU4WgEl0+Pvp3bdfG61E0G9ZcaosrsIZoyEDrQVe3SQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.SET.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.SET.html",
+          "hash": "X0cNCBSCUGqxaBsNoq28NN6KrP39si71cLAN4Xng5ts="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.TBL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.TBL.html",
+          "hash": "PicwsLVX1m8BkSJekX9EaLKj42i4jHwCwcXzj67SKIs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.UNI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.UNI.html",
+          "hash": "tu3LbKP+idIvG2FblkM3+kbladxlJfOIvs8j5xi8w1E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.VAL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.VAL.html",
+          "hash": "bWGVjSyDRNNEi3kbqnUs3V+T5cMguTg/qC1WLDmByHQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.easySQL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.easySQL.html",
+          "hash": "FugH6onRKadZpsYEML01uOe7n7p2U/0LqoS2sHlvUz4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.WPF.Views.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.WPF.Views.Windows.html",
+          "hash": "fqlbZzftr2jMRFiE4efBbfifamnsY62JODNQ08b1dg8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Rivalytics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rivalytics.html",
+          "hash": "ZYW7bUca5aA1Sw4i9lSldyOeVuvk5k1HCHg8abY0pdI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 15,
+          "skipped_file_count": 14
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 53,
+          "skipped_file_count": 53
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>TBL </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="TBL ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="" width="100" height="50">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/intro.html" title="User Guide">User Guide</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="Documentation">Documentation</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="intro.html" title="Introduction" class="">Introduction</a>
+                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Tools.html" title="Tools" class="">Tools</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="EasySQL.html" title="EasySQL" class="">EasySQL</a>
+                          </li>
+                          <li class="">
+                            <a href="ConnMan.html" title="Connection Manager" class="">Connection Manager</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Gens.html" title="Generators" class="">Generators</a>
+                        
+                        <ul class="nav level2">
+                          <li class="active">
+                            <a href="TBL.html" title="TBL" class="active">TBL</a>
+                          </li>
+                          <li class="">
+                            <a href="COL.html" title="COL" class="">COL</a>
+                          </li>
+                          <li class="">
+                            <a href="UNI.html" title="UNI" class="">UNI</a>
+                          </li>
+                          <li class="">
+                            <a href="REF.html" title="REF" class="">REF</a>
+                          </li>
+                          <li class="">
+                            <a href="DEF.html" title="DEF" class="">DEF</a>
+                          </li>
+                          <li class="">
+                            <a href="FLD.html" title="FLD" class="">FLD</a>
+                          </li>
+                          <li class="">
+                            <a href="SET.html" title="SET" class="">SET</a>
+                          </li>
+                          <li class="">
+                            <a href="VAL.html" title="VAL" class="">VAL</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="tbl">TBL</h1>
+
+<h5 id="summary-of-tables-and-schemas">Summary of tables and schemas</h5>
+<p>The TBL generator is used to create an overview of the tables in a database or schema. 
+It may be used directly as a worksheet function. 
+Rather than doing this, we suggest using the TBL dialog from the menu bar, especially when using this function for the first time.</p>
+<p><img src="../images/TBL/nav.png" alt="TBL_ribbon"><br><em>Figure 1: location of the TBL ribbon</em></p>
+<h2 id="example">Example</h2>
+<p>Consider the database of a retailer with two entities: <code>purchases</code> and <code>customers</code>. 
+<code>purchases</code> consists of four columns and five rows while <code>customers</code> only has two of each. 
+This is demonstrated in the below example.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="../images/TBL/purchases.png" alt="TBL_purchases"></th>
+<th style="text-align:center"><img src="../images/TBL/customers.png" alt="TBL_customers"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><em>Table 1: purchases</em></td>
+<td style="text-align:center"><em>Table 2: customers</em></td>
+</tr>
+</tbody>
+</table>
+<p>The TBL generator creates an overview of the size of each table inside of this database. 
+This overview contains:</p>
+<ul>
+<li><code>TABLE_NAME</code>, the name of each table</li>
+<li><code>NUM_ROWS</code>, the number of rows in the table</li>
+<li><code>NUM_COLS</code>, the number of columns in the table  </li>
+</ul>
+<p>Therefore, if applying the generated SQL query to our example, it produces the below table as output.</p>
+<p><img src="../images/TBL/result.png" alt="TBL_result"><br><em>Table 3: Executed TBL</em></p>
+<h2 id="settings">Settings</h2>
+<p>The only setting needed to use the TBL generator is the selection of a database or schema. 
+Make sure, that you have selected the correct connection in the <code>Connection Overview</code> panel (see [link: Connection Overview User Guide]). 
+If TBL should only be applied to all tables in a schema of our database, we can select the lower option &quot;All accessible tables in schema&quot; and choose the schema.</p>
+<p><img src="../images/TBL/settings.png" alt="TBL_settings">
+<em>Figure 1: TBL settings</em></p>
+<h2 id="execution">Execution</h2>
+<p>Once every compulsory field is filled, clicking the button <code>Generate SQL Statement</code> will create the corresponding query. 
+To execute it, fill in the remaining output details (see [link: Control Panel User Guide]) and press the <code>Execute Query</code> button to generate the result set.</p>
+&lt;Figure 2: Control Panel&gt;
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Created by <strong>RIVACON</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

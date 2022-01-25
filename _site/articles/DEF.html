@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>DEF </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="DEF ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="" width="100" height="50">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/intro.html" title="User Guide">User Guide</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="Documentation">Documentation</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="intro.html" title="Introduction" class="">Introduction</a>
+                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Tools.html" title="Tools" class="">Tools</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="EasySQL.html" title="EasySQL" class="">EasySQL</a>
+                          </li>
+                          <li class="">
+                            <a href="ConnMan.html" title="Connection Manager" class="">Connection Manager</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Gens.html" title="Generators" class="">Generators</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="TBL.html" title="TBL" class="">TBL</a>
+                          </li>
+                          <li class="">
+                            <a href="COL.html" title="COL" class="">COL</a>
+                          </li>
+                          <li class="">
+                            <a href="UNI.html" title="UNI" class="">UNI</a>
+                          </li>
+                          <li class="">
+                            <a href="REF.html" title="REF" class="">REF</a>
+                          </li>
+                          <li class="active">
+                            <a href="DEF.html" title="DEF" class="active">DEF</a>
+                          </li>
+                          <li class="">
+                            <a href="FLD.html" title="FLD" class="">FLD</a>
+                          </li>
+                          <li class="">
+                            <a href="SET.html" title="SET" class="">SET</a>
+                          </li>
+                          <li class="">
+                            <a href="VAL.html" title="VAL" class="">VAL</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="def">DEF</h1>
+
+<h5 id="altered-object-definitions">Altered object definitions</h5>
+<p>The DEF generator is used to detect changes in numeric and non-numeric entries: i.e. instances, where there are two tables to check for specific differences.
+It may be used directly as a worksheet function. 
+Rather than doing this, we suggest using the DEF dialog from the menu bar, especially when using this function for the first time.</p>
+<p><img src="../images/DEF/nav.png" alt="DEF_ribbon"><br><em>Figure 1: location of the DEF ribbon</em> </p>
+<h2 id="example">Example</h2>
+<p>Consider the database of a retailer with two entities: <code>customers2020</code> and <code>customers2021</code>. 
+An attribute of each purchase is the type of membership the customer chose. 
+In this example, we have two tables containing the customer&#39;s settings for different years. 
+We see, that customers 1 and 2 changed their subscriptions. 
+To identify such changes in large databases, we can use DEF.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="../images/DEF/customers2020.png" alt="DEF_customers2020"></th>
+<th style="text-align:center"><img src="../images/DEF/customers2021.png" alt="DEF_customers2021"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><em>Table 1: customers2020</em></td>
+<td style="text-align:center"><em>Table 2: customers2021</em></td>
+</tr>
+</tbody>
+</table>
+<p>We may search for changed object definitions in an entire table or a defined subset thereof. 
+For instance, in the above example, we may only care about customer IDs 2 and below. 
+The pattern can account for that via the <code>scope</code> parameter and limit the search for violations to that scope. 
+As a result, only the reference to the customer with ID = 1 and ID = 2 would be reported, as shown below: </p>
+<p><img src="../images/DEF/result.png" alt="DEF_result"><br><em>Table 3: executed DEF</em> </p>
+<h2 id="settings">Settings</h2>
+<p>The pattern is instantiated via eleven parameters, five related to the source (the outdated table), five to the target (the updated table), and one to the attribute, which will be shown in the resulting table.
+The source and target are each defined via two parameters: </p>
+<ul>
+<li>the <code>source schema</code>  / <code>target schema</code> 
+(providing for databases where identically named tables may exist in different schemas)</li>
+<li>the <code>source table</code> / <code>target table</code></li>
+</ul>
+<p>The third parameter specifies the common key in both tables to be able to link the entries:</p>
+<ul>
+<li>the <code>source link key</code> / <code>target link key</code> defines the key used to link the tables together. 
+When either key is a compound key, the attributes it is composed of are specified as a comma-separated list.</li>
+</ul>
+<p>The fourth parameter sets the attribute, that will be checked for changed definitions:</p>
+<ul>
+<li>the <code>source object</code> / <code>target object</code> defines the attribute, in which changes will be detected</li>
+</ul>
+<p>The fifth parameter defines the scope, i.e. the subset of the source / target tables to be included in the check:</p>
+<ul>
+<li>the <code>source scope</code> / <code>target scope</code> defines the subset of the respective table to be included in the check</li>
+</ul>
+<p>The <code>scope</code> is specified in the syntax of an SQL <code>where</code> clause. 
+It is an optional parameter. 
+When left blank, the scope is the entire table. </p>
+<p>The final parameter lets us input the attribute, which will be shown in the resulting table. 
+In the above example, this parameter is set to <code>name</code> as we have been interested in the name of the customers, who changed their subscription.</p>
+<ul>
+<li>the <code>target attribute</code> defines the attribute, that will be shown in the output</li>
+</ul>
+<p>In the below screenshot, we illustrate how the parameters would be chosen to implement the example check described above.
+We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quot; with the outdated list of customers stored in the worksheet <code>Customers2020</code> and the updated list stored in a second worksheet named <code>Customers2021</code>. </p>
+<p><img src="../images/DEF/settings.png" alt="DEF_settings"><br><em>Figure 2: DEF settings</em> </p>
+<h2 id="execution">Execution</h2>
+<p>Once every compulsory field is filled, clicking the button &quot;Generate SQL Statement&quot; will create the corresponding query. 
+To execute it, fill in the remaining output details (see [link: Control Panel User Guide]) and press the &quot;Execute Query&quot; button to generate the result set.</p>
+<p>Figure 2: Control Panel</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Created by <strong>RIVACON</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
