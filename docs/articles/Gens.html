@@ -50,9 +50,6 @@
                       <li>
                           <a href="../articles/intro.html" title="User Guide">User Guide</a>
                       </li>
-                      <li>
-                          <a href="../api/index.html" title="Documentation">Documentation</a>
-                      </li>
                 </ul>    </div>
           </div>
         </nav>
@@ -125,6 +122,18 @@
                             <a href="VAL.html" title="VAL" class="">VAL</a>
                           </li>
                         </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="DataAna.html" title="Data Analytics" class="">Data Analytics</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="KMeans.html" title="K Means Clustering" class="">K Means Clustering</a>
+                          </li>
+                          <li class="">
+                            <a href="NBC.html" title="Naive Bayes Classifier" class="">Naive Bayes Classifier</a>
+                          </li>
+                        </ul>  </li>
                   </ul>        </div>
               </div>
             </div>
@@ -135,7 +144,37 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="sql-generators">SQL Generators</h1>
 
-<p>Our SQL generators produce common queries to save you time when working with databases.</p>
+<p>Our SQL generators produce queries for common problem settings to save you time when working with databases.
+They are available as an easy-to-use graphical interface and a worksheet function, which can be executed directly from a cell.</p>
+<h2 id="visual-interface">Visual interface</h2>
+<p>For every generator, the user interface is structured similarly.
+It consists of a Connection Overview, the generator&#39;s settings, a Query Editor and the Control Panel (see Figure 1 below).</p>
+<p><img src="../images/Gens/structure.png" alt="Gens_structure">
+<em>Figure 1: Generator structure</em></p>
+<p>We will look at each section one by one to get a deeper sense of their purpose.</p>
+<h3 id="connection-overview">Connection Overview</h3>
+<p>This overview simplifies work with multiple datasources. 
+To create a statement for the correct one, it has to be selected from the drop down menu in the top left corner.
+Mind, that it might take a couple of seconds for your database to be loaded. 
+Once this is done, the schemas and tables with be listed in a &quot;tree-view&quot; structure to provide a better overview of your data.</p>
+<h3 id="generator-settings">Generator settings</h3>
+<p>To create queries with the proper schema, table and column names, it is nessecary to first select them in the settings.
+As every generator creates a different type of query, this section is different for each case.
+For detailed explanations and examples, please select the according generator in the table of contents on the left hand side.
+After filling the compulsory fields (marked by an asterisk), press the &quot;Generate query&quot; button.</p>
+<h3 id="query-editor">Query Editor</h3>
+<p>In order to view the queries before executing them, they will appear in the Query Editor after pressing the &quot;Generate query&quot; button in the settings.
+More advanced users can also adjust the query when needed and will be assisted by syntax highlighting and text suggestions.</p>
+<h3 id="control-panel">Control Panel</h3>
+<p>The final step before receiving the resulting table is to specify the output details.
+By default, a new worksheet will be created with the new table in the top left corner. 
+However, you may also select an already existing worksheet and another cell to be the top left corner of the table.
+Mind, that if you overwrite data in another sheet with the resulting table, you will not be able to revert the changes.
+Therefore, make sure to be careful when selcting an existing sheet in the dropdown menu.</p>
+<p>Furthermore, you have the option to leave out the table&#39;s column names, also known as the header.
+&quot;Clearing Old Conents&quot; will delete every cell entry to the left and below your selected cell.</p>
+<h2 id="worksheet-functions">Worksheet functions</h2>
+<p>to do</p>
 </article>
           </div>
           
@@ -143,6 +182,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/Gens.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

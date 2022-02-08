@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>FLD </title>
+    <title>Data Analytics </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="FLD ">
+    <meta name="title" content="Data Analytics ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../favicon.png">
@@ -112,8 +112,8 @@
                           <li class="">
                             <a href="DEF.html" title="DEF" class="">DEF</a>
                           </li>
-                          <li class="active">
-                            <a href="FLD.html" title="FLD" class="active">FLD</a>
+                          <li class="">
+                            <a href="FLD.html" title="FLD" class="">FLD</a>
                           </li>
                           <li class="">
                             <a href="SET.html" title="SET" class="">SET</a>
@@ -122,9 +122,9 @@
                             <a href="VAL.html" title="VAL" class="">VAL</a>
                           </li>
                         </ul>  </li>
-                    <li class="">
+                    <li class="active">
                       <span class="expand-stub"></span>
-                      <a href="DataAna.html" title="Data Analytics" class="">Data Analytics</a>
+                      <a href="DataAna.html" title="Data Analytics" class="active">Data Analytics</a>
                         
                         <ul class="nav level2">
                           <li class="">
@@ -142,73 +142,9 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="fld">FLD</h1>
+<h1 id="data-analytics">Data Analytics</h1>
 
-<h5 id="detection-of-invalid-or-suspicious-entries">Detection of invalid or suspicious entries</h5>
-<p>It is common for attributes to only allow a limited range of entries. 
-The FLD generator can be used to detect values, that violate these rules or conventions. 
-It may be used directly as a worksheet function. 
-Rather than doing this, we suggest using the FLD dialog from the menu bar, especially when using this function for the first time.</p>
-<p><img src="../images/FLD/nav.png" alt="FLD_ribbon"><br><em>Figure 1: location of the FLD ribbon</em></p>
-<h2 id="example">Example</h2>
-<p>Consider the database of a retailer with two entities: <code>purchases</code> and <code>customers</code>. 
-An attribute of each purchase is the id of the customer who carried it out. 
-We will look at three types of entries, that we can find with FLD:</p>
-<ul>
-<li>Impossible values: values, that violate strict rules for attributes. 
-Our retailer can only sell items for positive prices. 
-The below example illustrates this violation by a negative value for the attribute PRICE. </li>
-<li>Convention violation: usually only positive values are used as id in tables. 
-In the below example, a negative customer_id is referenced.</li>
-<li>Unusual values: suppose our retailer only sells inexpensive items and purchases are always worth under 100. 
-However, one entry in the below example is a mistake. </li>
-</ul>
-<p><img src="../images/FLD/purchases.png" alt="FLD_purchases"><br><em>Table 1: purchases</em></p>
-<p>We may perform checks for an entire table or a defined subset thereof. 
-For instance, in the above example, we may only care about purchases made in 2021. 
-The pattern can account for that via the SCOPE parameter and limit the search for violations to that scope. </p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="../images/FLD/result_1.png" alt="FLD_result_1"></th>
-<th style="text-align:center"><img src="../images/FLD/result_2.png" alt="FLD_result_2"></th>
-<th style="text-align:center"><img src="../images/FLD/result_3.png" alt="FLD_result_3"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Table 2: FLD check for prices &lt; 0</em></td>
-<td style="text-align:center"><em>Table 3: FLD check for customer_id &lt; 0</em></td>
-<td style="text-align:center"><em>Table 4: FLD check for prices &gt; 100</em></td>
-</tr>
-</tbody>
-</table>
-<h2 id="settings">Settings</h2>
-<p>The pattern is instantiated via five parameters, two related to the selection of the table and three to specify the FLD command.
-The table is defined via: </p>
-<ul>
-<li>the <code>schema</code><br>(providing for databases where identically named tables may exist in different schemas)</li>
-<li>the <code>table</code></li>
-</ul>
-<p>The third parameter specifies which attributes should be shown in the output table:</p>
-<ul>
-<li>the <code>attribute</code><br>(multiple attributes can be used)</li>
-</ul>
-<p>Defining the FLD operation is done with the remaining two parameters </p>
-<ul>
-<li>the <code>check</code> is a statement in SQL syntax to filter the table entries for</li>
-<li>the <code>scope</code> defines the subset of the table to be included in the check</li>
-</ul>
-<p>The <code>scope</code> is an optional parameter.
-When left blank, the entire table will be checked. </p>
-<p>In the below screenshots, we illustrate how the parameters would be chosen to implement the example checks described above.
-We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quot; with purchases stored in the worksheet &quot;Purchases&quot;. 
-In Figure 1 we check for negative prices, which we call impossible. 
-Figure 2 shows the FLD settings to check for convention violation by negative <code>customer_id</code>.</p>
-<p><img src="../images/FLD/settings_1.png" alt="FLD_settings_1">
-<em>Figure 2: FLD settings to perform check on price</em></p>
-<p><img src="../images/FLD/settings_2.png" alt="FLD_settings_2">
-<em>Figure 3: FLD settings to perform check on price</em></p>
+<p>to do</p>
 </article>
           </div>
           
@@ -216,6 +152,9 @@ Figure 2 shows the FLD settings to check for convention violation by negative <c
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/DataAna.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
