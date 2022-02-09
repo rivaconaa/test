@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Gens.html",
-          "hash": "1ekiUCINM4WHOuL5I61wUCA8XR1bjmPHaP7/ty0J3to="
+          "hash": "akOilodNIQu4fvQ8XEoD5gggL+c0sr2kfyFuYdADnsY="
         }
       },
       "is_incremental": true,
@@ -511,6 +511,17 @@
       "output": {
         "resource": {
           "relative_path": "images/Gens/structure.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Gens/ws_func.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Gens/ws_func.png"
         }
       },
       "is_incremental": false,

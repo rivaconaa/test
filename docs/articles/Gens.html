@@ -70,7 +70,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="sql-generators">SQL Generators</h1>
 
-<p>Our SQL generators produce queries for common problem settings to save you time when working with databases.
+<p>Our SQL generators produce queries for common problem settings to save time when working with databases.
 They are available as an easy-to-use graphical interface and a worksheet function, which can be executed directly from a cell.</p>
 <h2 id="visual-interface">Visual interface</h2>
 <p>For every generator, the user interface is structured similarly.
@@ -100,7 +100,15 @@ Therefore, make sure to be careful when selcting an existing sheet in the dropdo
 <p>Furthermore, you have the option to leave out the table&#39;s column names, also known as the header.
 &quot;Clearing Old Conents&quot; will delete every cell entry to the left and below your selected cell.</p>
 <h2 id="worksheet-functions">Worksheet functions</h2>
-<p>to do</p>
+<p>Another way of using the generators is to call them as worksheet functions. 
+As for popular Excel functions like <code>SUM</code>, <code>IF</code> or <code>UNIQUE</code>, simply typing the name of a generator behind an <code>=</code> sign will show the parameters (see Figure 2).</p>
+<p><img src="../images/Gens/ws_func.png" alt="Gens_ws_func">
+<em>Figure 1: Generator Worksheet functions</em></p>
+<p>Note, that executing a worksheet funtion will not execute the produced statement.
+Instead, the statement itself will be pasted into the respective cell. 
+In order to view the resulting table, it is nessecary to use the generator inside a <code>SQL</code> worksheet function. 
+For example: <code>=SQL(&quot;YourConnectionID&quot;, DEF(...))</code>.</p>
+<p>Further information on the <code>SQL</code> Worksheet function can be found in the chapter on &quot;EasySQL&quot;.</p>
 </article>
           </div>
           
