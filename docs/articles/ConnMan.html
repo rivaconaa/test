@@ -28,8 +28,8 @@
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
     {%- if _noindex -%}
     <meta name="searchOption" content="noindex">
     {%- endif -%}
@@ -64,7 +64,12 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-            </div>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/intro.html" title="User Guide">User Guide</a>
+                      </li>
+                </ul>    </div>
           </div>
         </nav>
         
@@ -77,11 +82,80 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="intro.html" title="Introduction" class="">Introduction</a>
+                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Tools.html" title="Tools" class="">Tools</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="EasySQL.html" title="EasySQL" class="">EasySQL</a>
+                          </li>
+                          <li class="active">
+                            <a href="ConnMan.html" title="Connection Manager" class="active">Connection Manager</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Gens.html" title="Generators" class="">Generators</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="TBL.html" title="TBL" class="">TBL</a>
+                          </li>
+                          <li class="">
+                            <a href="COL.html" title="COL" class="">COL</a>
+                          </li>
+                          <li class="">
+                            <a href="UNI.html" title="UNI" class="">UNI</a>
+                          </li>
+                          <li class="">
+                            <a href="REF.html" title="REF" class="">REF</a>
+                          </li>
+                          <li class="">
+                            <a href="DEF.html" title="DEF" class="">DEF</a>
+                          </li>
+                          <li class="">
+                            <a href="FLD.html" title="FLD" class="">FLD</a>
+                          </li>
+                          <li class="">
+                            <a href="SET.html" title="SET" class="">SET</a>
+                          </li>
+                          <li class="">
+                            <a href="VAL.html" title="VAL" class="">VAL</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="DataAna.html" title="Data Analytics" class="">Data Analytics</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="KMeans.html" title="K Means Clustering" class="">K Means Clustering</a>
+                          </li>
+                          <li class="">
+                            <a href="NBC.html" title="Naive Bayes Classifier" class="">Naive Bayes Classifier</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="article row grid-right">
