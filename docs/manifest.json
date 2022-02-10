@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "n0JuEyhfmsfnPe74rqcp4me5bHuZL0/Cu9PrwN73Mdw="
+          "hash": "xfeoNgRSs6uU9ASnOjmohXFNXHqOeEZ92obafgDH7ns="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/COL.html",
-          "hash": "N3agRnrsw9d1nyfMzxpS3vM5l0NWJLoI2tF7dgbGPrA="
+          "hash": "n3vPb6NaS1ONMqX315MmTLOLWsOgIjdYY6OoAfNbB7g="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/ConnMan.html",
-          "hash": "Hu5hW+efBFgPZSBU73GyquJlK9/CG47AUDSOdIiTDmk="
+          "hash": "5jr8kW385yXGp2nzfFnsfGfXypAXtShX/6ISYMbyyOA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/DEF.html",
-          "hash": "CYoIzIdnezV/DjWW/ow5xBd1VkfrqFik8X4tQ7x59gQ="
+          "hash": "W8nu9U5qhRPh6//AqZkVWvrFNHhoKCdAHLCgme6J5Kk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/DataAna.html",
-          "hash": "t25yHUVjiLqOcszSEvexgr/vqRGOgJegM7vnr26z6kc="
+          "hash": "8tgC6bjyjbfAPv0h6dGqlrm+ppTJEDshXVmpPv+58QU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/EasySQL.html",
-          "hash": "Ys2mKjItAijc/SR8zbpIF/zYOPDodGGo95UffzkHUrs="
+          "hash": "r+A+chXw27gtG+IW30u1iSl4FfmPcEexAlkCc5RIYHA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/FLD.html",
-          "hash": "b9DJZ9jX2rEE2pWNQLVqKdms3x5xQJPGqJkx+o7CPFY="
+          "hash": "PAP5u6TSmfp+pzUibTZduive96lSKVsjYlOym01R/f4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Gens.html",
-          "hash": "EvPoF1PZdlfOmisEwJYUeLD0/zPjxnhizaFb06XF8x4="
+          "hash": "PMZIHsE/z+usi+er0COKyW1gL0tMUkMEBWZk04WUpEQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/KMeans.html",
-          "hash": "/KmpGaWglpxoWzbzwT665qMDkEP3tZOtfFUDjkgfPyw="
+          "hash": "hPqBNg/OTOMQfBSB7uK/CT97tkgDpgi+pnQPeCXn4hI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/NBC.html",
-          "hash": "0UHwg7qeh2DgjvxKYs/kccs61mztgR9eFrXNOkmj1nM="
+          "hash": "sX+8PKnjSbe014WPgpGsCVPRmpCE8m+RHtswW12GRVo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/REF.html",
-          "hash": "/PJRRrVjLtDdWBlkrOyVjjXp28gfXNUX4prwVQzEqxs="
+          "hash": "vcnm7cesKURaLl9B+p7lc3BPu8osTzSGVIOz5eQ+BMU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/SET.html",
-          "hash": "gtFr0MY5RkTolQkynU2qw8/vrTBuu6lyIy/G6eb/1QQ="
+          "hash": "8nSzyBCBAN+SESc0LT2KW1UDV5z9Mt8CX+jiGJ1RkoY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/TBL.html",
-          "hash": "6nUT300M0daWGUyq4k8rtK2ePat0Nlrkrib1PKA4QL8="
+          "hash": "dNDQLOftZrJtkonNEb+IXAtuMafnvIIHPsT9B85lmts="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Tools.html",
-          "hash": "03tyL6bx667ntTDS7RZgG4HyYTW0ljc6E18RplD0QzU="
+          "hash": "FnWQ4mK+BEaISqDdScGpikA8h0t75XkBurI1wrPe+dE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/UNI.html",
-          "hash": "4NO1fZZtvXUr0xZefy1nMJCVQThZgjp6RXhntuWEMRg="
+          "hash": "Lt2D22SIPeLZ5O35/XN5jWbN83XNY8SOVenJPv6OcuM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/VAL.html",
-          "hash": "igYLpBPv8ImLTjsieut/Ysqxfuzj/BX1Po5yVeKOm88="
+          "hash": "sZUb9jQ6JEVICV6fg5rwigQSaH/rOcMl2fEYNJ5M4C4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -201,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "WcFm26GLquJ8gr1CQtkCq80P8NjqsQToAU5O2K7/XwE="
+          "hash": "WbxjXciTn1YCVbx/l4TnjcaCfVENEcpg//7s5QnoAk0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -940,10 +940,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "1WFQwI83kOyyDnPHz9/2L2xmLuundJVXsNvT75bEyZk="
+          "hash": "tGFv1lZ/+A4Vt6IKq7HY/ELRZh0QHeig62Q8E1Ynnxg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -952,10 +952,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.CollectionExtensionMethods.html",
-          "hash": "9bb8QkTAvuRAwtHDMtZU7BszKaq93FsR0sJF2/ZzykA="
+          "hash": "/vDPInwSIHCXdpIXsrApqvKv+CEsAPpiPrNU4vsKTjM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -964,10 +964,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.Cryptography.CryptographyHelper.html",
-          "hash": "mZkUYkyXXxqqrwtv5vZVcH+X2duC8C3Pzosrs5h2I3c="
+          "hash": "5+aq8prMQovrn7vL83/YDR53fYPWZPFDKxHTqFNEdTE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -976,10 +976,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.Cryptography.EncryptedData.html",
-          "hash": "8jsNdtAmz1OI+XsiGxBhrOKFi241S9ASAc63jX+vjaI="
+          "hash": "z0Kxw0qt1A5w5609Dsv1yMbYvnbDkdYrdh4or1NjwpA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -988,10 +988,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.Cryptography.html",
-          "hash": "XMplB9E54x/JUjrlVlDa2iYaQO7371FlqgyNciYxW7U="
+          "hash": "K/dyqeOu/Ts4ZLVJS/pCrgA5aiggQHUBn8wbXg3B/jo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1000,10 +1000,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.ExcelWorksheetFunctions.html",
-          "hash": "bWeTdpvlDjJ3hPYbNaYJ1Zw+/ol6Aq8wCGPuTCiDBfY="
+          "hash": "Ss872VaRnKJsZiTtv7/HAUmveCpwfEH4ULFLx/2cvK4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1012,10 +1012,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.Globals.html",
-          "hash": "ooLqz3I2UphQrFnv2cLjhq/D3Q94rLlZ1P37xAmrrlU="
+          "hash": "LylO+u1HFSvu5XWc3fShmoZR/QuBi+S21WDWD1bzjdM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1024,10 +1024,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.HelperFunctions.BoolConversion.html",
-          "hash": "sblUq8CJn4OEQNb7huc2tY5aLqqMWPmwM+ixV3WbB1s="
+          "hash": "LXz/rMlUNQVrgd4VjODPjnG8Tz01nQxMwR1fKmblMsk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1036,10 +1036,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.HelperFunctions.html",
-          "hash": "gwC/o0eUQhoz8TsU+5SARKvsKximuSpzMyML7YskRmo="
+          "hash": "+KTOc+JTBsdqkFb3K7sFfefqPrbOPy2QEZMjv/MNcC8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1048,10 +1048,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.RibbonControl.html",
-          "hash": "qwk6KqnQv204iX2JmtYXIaRDPBikRzneD9GuQIrstnM="
+          "hash": "qzMFmogVU8FV8IRuUDzutfZ04v0l2K0ivN0WtTDsWUA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1060,10 +1060,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.Tetris.MainWindow.html",
-          "hash": "wNe4Mex0SDwwc+okxeGXXRk7Q706k0Rwhjb2py5KT1c="
+          "hash": "mwUlDhN/IjjX+Qp2TuyWc/r7ZahuUldiU307vv33UzM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1072,10 +1072,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.Tetris.TetrisShape.html",
-          "hash": "yP+gUox6UssxaSsPxpavYnAQyKmzE8pme7LXOrHW9CQ="
+          "hash": "5EwFGxm00eUg6usL/h6DI+qsorEpo3MnTMcikdHTNBk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1084,10 +1084,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.Tetris.html",
-          "hash": "wPCLveZZ0RPIvFugL6LZozFs6NnyMOZDde2m+EuIyY0="
+          "hash": "wcgQTH0HYm0bK2xJ9yFp1mig10VzoRxCZVVuLEJxAoo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1096,10 +1096,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.Utilities.UtilBox.html",
-          "hash": "vBoyTNYQW0jyGaI7saSGhCRXIqQSLq9jc7YGZyYEJVE="
+          "hash": "v4v2XQtrfUgEZBaql9Jfum3noP7Ir+lb4aCE/P7C9LY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1108,10 +1108,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.Utilities.dateUtilities.html",
-          "hash": "p/5MlLysh2BJmtmEU1CoBEoDV+qyydGN3W9sKDoiJrw="
+          "hash": "IQPd0Ew/nwYNZrU8K7cTzIWLnymjjK2YHZdoTIJgjD8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1120,10 +1120,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.Utilities.html",
-          "hash": "Bu9D9l0Qo4Pn6Wm+S+GhUOsM00boRrjx0Cxj6FcO3+Q="
+          "hash": "CH242+57RCg5sBPgWMJXOsRqdRUM7IGGupWnf9OkW+c="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1132,10 +1132,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Models.DBColumn.html",
-          "hash": "1exKUdtRN4XwGhAsfV/ihWGkKb3Cjx/NEwWmguGVmRI="
+          "hash": "LI+qNbU9ppbugjfgAFQxied/wkm3Hd0xkrvDGeRvNYw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1144,10 +1144,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Models.DBConnection.html",
-          "hash": "RAYOHX4w952PHqG7NGGNsr2wnYKwm5JL8xb4bgSB+m8="
+          "hash": "G8zLcQ/WnNruoMP0xvgUb6BfDjcDwNM7CWaRL6QEhXc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1156,10 +1156,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Models.DBSchema.html",
-          "hash": "aYcu5ohLVWzlwKfg2lP/KcxnclLLcFxS2M5RqIfwx8w="
+          "hash": "PYTgO1RFxsjRJlpEelZFO2fI+KoW7mtbXLNNxeU9aQw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1168,10 +1168,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Models.DBTable.html",
-          "hash": "j3en75Bqq0G8LycXYjOvZPf0f6+7H9EWl4hMSBSUrlM="
+          "hash": "GtUQ7wq/Vhh4mYOP6bExNVX6BxeL1EzMyS8AkXtQcmg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1180,10 +1180,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Models.MyCompletionData.html",
-          "hash": "L7k5JCB1SlU5P+RU4bVCbrS+98FJQC+aCrtvFSnXQns="
+          "hash": "XukKSiVWMJq7WkXWqaQ1CeSagEyoNTyTqabpdoNFd0M="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1192,10 +1192,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Models.MyCompletionDataEqualityComparer.html",
-          "hash": "fCjmSdYXQhkXEyOU3PXuXRfk1GBzguyFgYJzjZptzKY="
+          "hash": "kjFP3tsEPiMHziZ/dL6Ktdlm8cxeFy7xmpFNnaSqDf8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1204,10 +1204,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Models.ObservableDBConnectionCollection.html",
-          "hash": "LPmQRAW8QcZPQKaNH94+FMJuwpcJsJwC6OI9fj007fc="
+          "hash": "/drhVDswW5EpcznMkhsNOlWkV8QfZ0VbZWDIplQVclc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1216,10 +1216,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Models.html",
-          "hash": "wpo81NAXaRRzmMvGw0rPUdfhvh084G/bCGLoHv+P/NM="
+          "hash": "0YzyfKdeycgGyACHNQMSPPsqq/c+1aMQL7Q2B9b+his="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1228,10 +1228,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.ViewModels.Commands.SelectWorkbookCommand.html",
-          "hash": "hjExzr8U4tgC5uvuCp6oh3p48mg/n99bSekigXauo/U="
+          "hash": "oqjXA3y7ethtUnRk1IetjbvnOuwGTwxct9MC6OSRtg4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1240,10 +1240,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.ViewModels.Commands.html",
-          "hash": "ggXNYGkbLxyRU3ayk609T92vxsVuOcIFGy9jLbmNOfE="
+          "hash": "JJamZXVfZN+L5z9TJE97jjSJNwtwGcNaMLaCe4OpN6Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1252,10 +1252,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.ViewModels.Converters.MyConverter.html",
-          "hash": "900PJJY8gIY50MG1BStRwJ5ucgLkn7+NDsPtwRidyWk="
+          "hash": "G+GrhKGQaSxGmB2/Wk3gBiiEIcrF4FwsnkMBDK6Mf9U="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1264,10 +1264,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.ViewModels.Converters.html",
-          "hash": "rKs6dH8Yp0Lnl6HPvg7b4yJ8WrVCswPUhp1CvgVVdA0="
+          "hash": "i6crtXkh5+Ab2rreYOga77ygId+swni/xxAEWtKpAOM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1276,10 +1276,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.ViewModels.ViewModelBase.html",
-          "hash": "FcwBR4f9g1l6WwI2ODonuK/xtn0rQEhh+OveaZCiNx4="
+          "hash": "mQ3XRjXqRLAvFkhVaQFBi2iccrt7o6gUeGCkLmTjnJ8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1288,10 +1288,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.ViewModels.ViewModelConnectionManager.html",
-          "hash": "hkFim13QBkP6gjwzM3vFmvXKPgb8/8zSB6SF8eSZpWg="
+          "hash": "t7/f9nudQ3MD4oKsfx7Z83X7K2o2hHz6hTAbCM4S3t8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1300,10 +1300,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.ViewModels.ViewModelSQLEditor.html",
-          "hash": "LLWnEOa92e4PyErc8ats5TvnZBMnd+/2BsTKjUU0uoY="
+          "hash": "P0PU5AAxhpfv0VQXaXhzx1ar+VZT/obNXWjEv2x9ezY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1312,10 +1312,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.ViewModels.html",
-          "hash": "7A58/IJFlx3douQ55fnchJXq1YwQ12EXpzqVrj+qLGA="
+          "hash": "3kWeLvCz3+R6Mb5PgLo7sLgiAivmuaITJ29pwE0xyxI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1324,10 +1324,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.UserControls.ActiveConnectionsDropDown.html",
-          "hash": "fZ27AzF9gujXw4EzyGJX3HY4rep+Q89FD7g9LiwJ3Dc="
+          "hash": "l1BnFbYvr+QyuRp4hNhZVw4i+wa13RJEug1/t7tpNcE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1336,10 +1336,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.UserControls.ActiveConnectionsListView.html",
-          "hash": "nrsjpzBoFdN2MDHxBmrDpGGZ7G6sZl40it/KaYJZNG0="
+          "hash": "7hgEpKgLMVCME0jQ+IonKbT2CkUJm/mrqJJ/5I1KsJw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1348,10 +1348,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.UserControls.ControlPanel.html",
-          "hash": "pmvTNgoX1V3KlQza9G2GhRksephWBwa1xROAVL6GbIk="
+          "hash": "neKTsJ8TdlWh1jyNAr9sXf9JhmDdKQ73DweDY5rNUoI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1360,10 +1360,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.UserControls.DBTreeView.html",
-          "hash": "E2xb/J+pX6HJwYdNruXttL7ZHbvW8SYWepUAmkmMRGY="
+          "hash": "/zPPjhGbYHGgiU6k7F0FfDFURpuCzX1vUW/h3dbtPrA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1372,10 +1372,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.UserControls.SQLEditor.html",
-          "hash": "K4ZZhwp8LUQ1Y6sof9ZBotPVLXD6Oqv1wHmPe2Y5Ltg="
+          "hash": "3uymIvihppWQ53+FQDz6oDc3JZgTETks3hTl4gI+OrE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1384,10 +1384,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.UserControls.html",
-          "hash": "iJKtaYvaHIz/K0DNhKOBa2A3kFVr81um/cQ0pSynS8I="
+          "hash": "Qj4D0vsbTJY2OeWP4N6Wve+TTjLKIBbiUeBfnILtqa4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1396,10 +1396,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.About.html",
-          "hash": "A3yT4623IVqcS7bZ/izfr1U0VB5Y3BXaiKzSw7vUBvU="
+          "hash": "jctJROQcEvlVigqGw2KvzWCb6DdIwoWpuq8OBCaunWM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1408,10 +1408,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.COL.html",
-          "hash": "3G5a1Fc2IoyTSH+jNR+gLOJ+Eibrpb8tZNhYwrwoCic="
+          "hash": "ScE01csiu+R+JQAFVpFR8lA+U0jLthV+HVFENfRLC3w="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1420,10 +1420,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.ConnectionManager.html",
-          "hash": "PtSmgIt32ouG3h7a7Zpt6tTnFUbz7HsWlwd7kodAnE0="
+          "hash": "0Fbnmv/T5EzVXVdfCrTBkaZ9A+QSa3lcEyZ3H+ldWYA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1432,10 +1432,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.ConnectionProperties.html",
-          "hash": "DgUF9oUU/9i9ssgv/qaVBhHW20giU9Qzlaua5SO6tr8="
+          "hash": "UknQouHooFUfwfZZb979S4NxSy+iJdphcCt5kk/jiag="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1444,10 +1444,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.Contact.html",
-          "hash": "buTC58PmfhmO+o624NOwLEpV8YJt5uMeS0956ikUD8o="
+          "hash": "t6G/rh0kzQcrdS+98fO7lFWBOms/rMdWuTbhkLVpwfA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1456,10 +1456,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.DEF.html",
-          "hash": "RHsSS/Q+CkRGcAB6iIAwg566J0YmR92j5DOxc2su5Wk="
+          "hash": "nP/tjhBEK/rwjKOiaa9qZ/rEYwJ5aBBow6HnZ87sE4w="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1468,10 +1468,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.FLD.html",
-          "hash": "+ScQomIxwzKbgzm/Mg+KPIlJAPo8MunTb87+93gZl5M="
+          "hash": "E7SBmQ/GmHeHD4ZlHj2vyV0Gcna6TjJnqHrDlvGrdBk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1480,10 +1480,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.PasswordInput.html",
-          "hash": "t854EJFxXjU1X1rZ/oQ9I/IqK5cd5s3VpcakAhO2v5g="
+          "hash": "Lie2q/cx+BW2jlBpartVVsb2oiVRrR8nGa2OWVCZ8+o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1492,10 +1492,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.REF.html",
-          "hash": "ft4JBcCSLZZd2mOfy9zmo5Y6rhMh4qBrsJELjR7Dy+Q="
+          "hash": "oozh7+69gbXd6frsUDcgEoce1C2GWVzXLToNRkxR/XQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1504,10 +1504,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.SET.html",
-          "hash": "us6sHnzCJmhiuYgO+QNFlvk4fR+48YSwRoBmgyyArRE="
+          "hash": "cZNrTUpzN2zM6fereo9WYBSA6PNz2XWIFEean3G+NHY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1516,10 +1516,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.TBL.html",
-          "hash": "FUxUwt4K4XP1UIn8gOF/ggYRFpjVZYm8vMjLgQKVe24="
+          "hash": "Rftg+7AwsP19dH/dFBqkXw1aP5v4NhzhF22eVhPrAjA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1528,10 +1528,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.UNI.html",
-          "hash": "qcyWu14OkJmzaGoNBj8NEd3nrm5H6+tH+TZ4v1nPoa0="
+          "hash": "3vHutecytXIfnctrQGXQ9m1pHxJd2wYB7WuXnvpXNPM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1540,10 +1540,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.VAL.html",
-          "hash": "0RK5mdjhbSDYZpVwhhxZZR6FeyhMsE8j+57uzKbgVJk="
+          "hash": "TWYm1yLVHFhA6ep/CTMR3cT1B/CLeDAzKfaBVdmkPIE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1552,10 +1552,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.easySQL.html",
-          "hash": "ikYCZVVhrr+3qRePBVeaUTGXPO5fNuMTsjTRIlqn5yc="
+          "hash": "XKcyKSqZE5nAbE2MefZ6fZ27I+pQxawE4GX9rW714+Q="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1564,10 +1564,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.WPF.Views.Windows.html",
-          "hash": "Gbxd1Qi19HqrQvnyHyXkix3L1zL1Ywhm2eSR0ds3ERY="
+          "hash": "GTW01DzXlAKPl/0R98+POlWbyu9bDy88E4jh+ZDAnQk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1576,10 +1576,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Rivalytics.html",
-          "hash": "GNIZ7z1qpGc7axlMpexgTFuLrPFqVvvSYdGPncp4jqg="
+          "hash": "CEr5Rc1eqNc2RwLRS4X6SCUlhcocHXargoffH7kLs9c="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
