@@ -232,6 +232,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/COL/favicon.heic",
+      "output": {
+        "resource": {
+          "relative_path": "images/COL/favicon.heic"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/COL/nav.png",
       "output": {
         "resource": {
