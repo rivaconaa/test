@@ -1,9 +1,9 @@
-<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
- <g>
-  <title>Layer 1</title>
-  <path fill="#837f79" stroke-width="0" d="m75.5,54.41823l224.50001,680.99988l224.50001,-680.99988l-449.00003,0l0.00001,0z" id="svg_3" stroke="#000"/>
-  <path fill="#bc9c6a" stroke-width="0" d="m156.00002,54l144,439.99998l144,-439.99998l-288.00001,0l0.00001,0z" id="svg_4" stroke="#000"/>
-  <path fill="#837f79" stroke-width="0" d="m214.99999,15.83315l85.00001,258.99996l85.00001,-258.99996l-170.00002,0z" id="svg_6" stroke="#000"/>
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg" stroke="null" style="vector-effect: non-scaling-stroke;">
+ <g stroke="null" id="Layer_1">
+  <title stroke="null">Layer 1</title>
+  <path stroke="#000" stroke-width="0" id="svg_8" d="m4.73281,3.62712l20.26719,55.70076l20.26719,-55.70076l-40.53438,0z" fill="#837f79"/>
+  <path stroke="#000" stroke-width="0" id="svg_9" d="m11.52086,3.61301l13.47914,37.73862l13.47914,-37.73862l-26.95827,0z" fill="#bc9c6a"/>
+  <path stroke="#000" stroke-width="0" id="svg_10" d="m16.25063,-0.02335l8.74937,24.42805l8.74938,-24.42805l-17.49874,0z" fill="#837f79"/>
  </g>
 
 </svg>
