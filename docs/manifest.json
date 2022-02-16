@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/KMeans.html",
-          "hash": "K2ttB8Jm3RzHxY1zbrVMPbqDS9u/NUCTbYCbyvRUI0k="
+          "hash": "g0bIRUqvOaFsPiyz6IFA1jxu320mYr67az5uRPR0qx0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1006,10 +1006,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Wvd4eYOppgClGO3BYzFiCgXoZuEmUV4xmlwrdcmuNyY="
+          "hash": "nGo9VR7nQVXElDdmp3tGJRzfwWAvUHHwjNvK/AMR74Q="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {

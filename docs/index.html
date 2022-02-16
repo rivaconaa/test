@@ -82,14 +82,62 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="welcome-to-rivalytics">Welcome to <strong>RIVALYTICS</strong>!</h1>
 
-<p>Here you can find detailed explanations and examples for our Excel Add-in.</p>
-<p><strong>RIVALYTICS</strong> helps you connect your Excel workbooks to ODBC databases and perform queries on the data.
-Even without knowledge of SQL, you will be able to operate the provided tools.</p>
-<p>Markus: </p>
+<p><strong>RIVALYTICS</strong> is an Excel Add-In that includes tools and features for data analytics.
+It allows you to connect any Excel workbook to multiple databases at the same time and perform SQL queries on the data. 
+Moreover, it also provides an user interface and several features which enable users without advanced SQL knowledge to also operate the provided tools.</p>
+<h2 id="download">Download</h2>
+<p>The donwload is available on <a href="https://www.rivacon.com/downloads/">our Website</a>.</p>
+<h2 id="overview-of-key-features">Overview of key features</h2>
+<ol>
+<li><code>SQL()</code> worksheet function to perform SQL statements on connected databases.</li>
+<li>Multiple worksheet functions to automatically generate SQL statements within pre-defined frameworks. 
+All of these SQL Generator frameworks are set up to simplify and automate recurring slice &amp; dice operations for data analysis and data quality assurance.</li>
+<li>User Interface including a SQL editor with syntax highlighting and autocompletion.</li>
+<li>K-Means Clustering (2D and mutlidimensional) with graphical output for the 2D version.</li>
+<li>Naive Bayes Algorithm <strong>(HIER NOCH ETWAS MEHR SCHREIBEN)</strong></li>
+<li>Multiple, parallel connections from your Excel workbook to databases (using ODBC). </li>
+</ol>
+<h3 id="currently-supported-databases">Currently supported databases</h3>
 <ul>
-<li>allgemeine Beschreibung vom Tool</li>
-<li>Werbung: RIVACON seite verlinken und auf weitere Tools aufmerksam machen.</li>
+<li>SQL Server</li>
+<li>Oracle</li>
+<li>IBM DB2</li>
+<li>PostgreSQL</li>
+<li>Excel Workbooks</li>
 </ul>
+<h2 id="getting-started">Getting Started</h2>
+<h3 id="permanent-installation">Permanent Installation</h3>
+<ol>
+<li>Download the <strong>RIVALYTICS</strong> Add-In from <a href="https://www.rivacon.com/downloads/">our Website</a></li>
+<li>Extract the files from the downloaded .zip and store them in a permanent available directory</li>
+<li>Open Excel</li>
+<li>Click on File &gt;&gt; Options and then click the Add-Ins category.</li>
+<li>In the Manage box, click Excel Add-ins, and then click Go.</li>
+<li>If the Rivalytics Add-In is not listed there, click on Browse to locate the Add-In and then click OK. Depending on your installed Excel version, you&#39;ll need the 32-bit or 64-bit version of the .xll files.</li>
+<li>You should see a new ribbon &quot;Rivalytics&quot; at the top of your Excel window where you can find the Add-In&#39;s features. The Add-In is now automatically loaded every time you start Excel.</li>
+</ol>
+<h3 id="temporary-installation-drag--drop">Temporary Installation (Drag &amp; Drop)</h3>
+<ol>
+<li>Download the <strong>RIVALYTICS</strong> addin from <a href="https://www.rivacon.com/downloads/">our Website</a></li>
+<li>Extract the files from the downloaded .zip</li>
+<li>Open .xlsx workbook</li>
+<li>Depending on your installed Excel version, you&#39;ll need the 32-bit or 64-bit version of the .xll files</li>
+<li>Drag &amp; drop the .xll file into the opened workbook. Confirm the activation. You should see a new ribbon &quot;Rivalytics&quot; at the top of your Excel window where you can find the Add-In&#39;s features.</li>
+</ol>
+<h2 id="how-does-the-rivalytics-add-in-work">How does the <strong>RIVALYTICS</strong> Add-In work?</h2>
+<ul>
+<li>hier fehlt: wie wird eine DBConnection aufgebaut und wie nutzt man sie (connectionID!)</li>
+<li>read-only statements</li>
+<li>verlinkung zum User Guide</li>
+</ul>
+<p><strong>veraltet</strong> The Add-In establishes an ADODB connection to your opened .xlsx workbook. So every sheet in your workbook can be treated like a DB table in your SQL statement. Moreover you use other Excel workbooks or CSV Files and can connect to Databases like Access, Oracle, SQL Server, Sybase and Postgre SQL.</p>
+<h2 id="license">License</h2>
+<p>The MIT License (MIT)
+Copyright (c) 2022 RIVACON GmbH</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 </article>
           </div>
           
