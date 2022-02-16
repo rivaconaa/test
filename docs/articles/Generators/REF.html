@@ -20,21 +20,21 @@
     <meta name="description" content="">
     {%- endif -%}
     {%- if _appFaviconPath -%}
-    <link rel="shortcut icon" href="../">
+    <link rel="shortcut icon" href="../../">
     {%- else -%}
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../../favicon.ico">
     {%- endif -%}
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     {%- if _noindex -%}
     <meta name="searchOption" content="noindex">
     {%- endif -%}
     {%- if _enableSearch -%}
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../">
     {%- endif -%}
     {%- if _enableNewTab -%}
     <meta property="docfx:newtab" content="true">
@@ -54,8 +54,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="" width="50" height="50">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="" width="50" height="50">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -94,7 +94,7 @@
 i.e. instances, where an attribute in one table is a reference to an entry in a second table, and that entry does not exist. </p>
 <p>The REF generator may be used directly as a worksheet function. 
 Rather than doing this, we suggest using the REF dialog from the menu bar, especially when using this function for the first time.  </p>
-<p><img src="../images/REF/nav.png" alt="REF_ribbon"><br><em>Figure 1: location of the REF ribbon</em></p>
+<p><img src="../../images/REF/nav.png" alt="REF_ribbon"><br><em>Figure 1: location of the REF ribbon</em></p>
 <h2 id="example">Example</h2>
 <p>Consider the database of a retailer with two entities: PURCHASES and CUSTOMERS. 
 An attribute of each purchase is the id of the customer who carried it out. 
@@ -104,8 +104,8 @@ We see that purchases 1 and 3 are linked to a customer that is not listed. </p>
 <table>
 <thead>
 <tr>
-<th style="text-align:center"><img src="../images/REF/purchases.png" alt="REFpurchases"></th>
-<th style="text-align:center"><img src="../images/REF/customers.png" alt="REF_customers"></th>
+<th style="text-align:center"><img src="../../images/REF/purchases.png" alt="REFpurchases"></th>
+<th style="text-align:center"><img src="../../images/REF/customers.png" alt="REF_customers"></th>
 </tr>
 </thead>
 <tbody>
@@ -119,7 +119,7 @@ We see that purchases 1 and 3 are linked to a customer that is not listed. </p>
 For instance, in the above example, we may only care about purchases made in 2021. 
 The pattern can account for that via the SCOPE parameter and limit the search for violations to that scope.
 As a result, only the reference to the customer with ID = 5 would be reported, as shown below: </p>
-<p><img src="../images/REF/executed.png" alt="REF_executed"><br><em>Table 3: Executed REF generator</em></p>
+<p><img src="../../images/REF/executed.png" alt="REF_executed"><br><em>Table 3: Executed REF generator</em></p>
 <h2 id="settings">Settings</h2>
 <p>The pattern is instantiated via eight parameters, four related to the source (the referencing table) and four to the target (the referenced table).
 The source and target are each defined via two parameters:  </p>
@@ -143,7 +143,7 @@ The fourth parameter defines the scope, i.e. the subset of the source / target t
 When left blank, the scope is the entire table. </p>
 <p>In the below screenshot, we illustrate how the parameters would be chosen to implement the example check described above. 
 We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quot; with purchases stored in the worksheet &quot;Purchases&quot; and customers stored in a second worksheet named &quot;Customers&quot;. </p>
-<p><img src="../images/REF/settings.png" alt="REF_settings"><br><em>Table 4: REF settings</em></p>
+<p><img src="../../images/REF/settings.png" alt="REF_settings"><br><em>Table 4: REF settings</em></p>
 </article>
           </div>
           
@@ -152,7 +152,7 @@ We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quo
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/REF.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/Generators/REF.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -179,8 +179,8 @@ We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quo
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>

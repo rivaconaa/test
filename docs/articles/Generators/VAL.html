@@ -20,21 +20,21 @@
     <meta name="description" content="">
     {%- endif -%}
     {%- if _appFaviconPath -%}
-    <link rel="shortcut icon" href="../">
+    <link rel="shortcut icon" href="../../">
     {%- else -%}
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../../favicon.ico">
     {%- endif -%}
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     {%- if _noindex -%}
     <meta name="searchOption" content="noindex">
     {%- endif -%}
     {%- if _enableSearch -%}
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../">
     {%- endif -%}
     {%- if _enableNewTab -%}
     <meta property="docfx:newtab" content="true">
@@ -54,8 +54,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="" width="50" height="50">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="" width="50" height="50">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -94,12 +94,12 @@
 This can be useful for detecting possible errors or outliers.</p>
 <p>The VAL generator may be used directly as a worksheet function. 
 Rather than doing this, we suggest using the VAL dialog from the menu bar, especially when using this function for the first time.</p>
-<p><img src="../images/VAL/nav.png" alt="VAL_ribbon"><br><em>Figure 1: location of the VAL ribbon</em> </p>
+<p><img src="../../images/VAL/nav.png" alt="VAL_ribbon"><br><em>Figure 1: location of the VAL ribbon</em> </p>
 <h2 id="example">Example</h2>
 <p>Consider the database of a retailer with an entity <code>purchases</code>. 
 Attributes of each purchase include the price paid and the id of the customer who carried it out. 
 We are interested in how much the total purchase value of each customer changed from 2020 to 2021.</p>
-<p><img src="../images/VAL/purchases.png" alt="VAL_purchases"><br><em>Table 1: purchases</em></p>
+<p><img src="../../images/VAL/purchases.png" alt="VAL_purchases"><br><em>Table 1: purchases</em></p>
 <p>We can analyze four types of metrics:</p>
 <ul>
 <li><code>DELTA</code>, the difference between the new and the old entry</li>
@@ -110,9 +110,9 @@ We are interested in how much the total purchase value of each customer changed 
 <p>For example, if we would like to find every customer, whose purchase value decreased by more than 100, our threshold would be <code>DELTA</code> &lt; -100. 
 In the same way, the threshold <code>ABSDELTA</code> &gt; 100 gives us every customer, whose purchase value changed by more than 100.
 Table 2 shows every customer, whose total purchase value has dropped by more than 100. In addition, each one of the metrics is shown for this customer.</p>
-<p><img src="../images/VAL/result_1.png" alt="VAL_result_1"><br><em>Table 2: Executed VAL for DELTA &lt; -100</em></p>
+<p><img src="../../images/VAL/result_1.png" alt="VAL_result_1"><br><em>Table 2: Executed VAL for DELTA &lt; -100</em></p>
 <p>While the query in Table 2 focuses on absolute change, the following one addresses relative change, which can be equally useful. </p>
-<p><img src="../images/VAL/result_2.png" alt="VAL_result_2"><br><em>Table 3: Executed VAL for ABSRELDELTA &gt; 2</em></p>
+<p><img src="../../images/VAL/result_2.png" alt="VAL_result_2"><br><em>Table 3: Executed VAL for ABSRELDELTA &gt; 2</em></p>
 <h2 id="settings">Settings</h2>
 <p>The pattern is instantiated via twelve parameters, five related to the source (the outdated table), five to the target (the updated table), and another two specify the quantitative change we are looking for. 
 It is important, that changes happen from the source to the target table. 
@@ -142,7 +142,7 @@ It is an optional parameter.
 When left blank, the scope is the entire table. 
 In the below screenshot, we illustrate how the parameters would be chosen to implement the example from Table 3 described above. 
 We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quot; with purchases stored in the worksheet <code>Purchases</code>.</p>
-<p><img src="../images/VAL/settings.png" alt="VAL_settings"><br><em>Figure 1: VAL settings for ABSRELDELTA &gt; 2</em></p>
+<p><img src="../../images/VAL/settings.png" alt="VAL_settings"><br><em>Figure 1: VAL settings for ABSRELDELTA &gt; 2</em></p>
 </article>
           </div>
           
@@ -151,7 +151,7 @@ We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quo
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/VAL.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/Generators/VAL.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -178,8 +178,8 @@ We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quo
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>

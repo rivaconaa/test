@@ -20,21 +20,21 @@
     <meta name="description" content="">
     {%- endif -%}
     {%- if _appFaviconPath -%}
-    <link rel="shortcut icon" href="../">
+    <link rel="shortcut icon" href="../../">
     {%- else -%}
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../../favicon.ico">
     {%- endif -%}
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     {%- if _noindex -%}
     <meta name="searchOption" content="noindex">
     {%- endif -%}
     {%- if _enableSearch -%}
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../">
     {%- endif -%}
     {%- if _enableNewTab -%}
     <meta property="docfx:newtab" content="true">
@@ -54,8 +54,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="" width="50" height="50">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="" width="50" height="50">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -93,7 +93,7 @@
 <p>The DEF generator is used to detect changes in numeric and non-numeric entries: i.e. instances, where there are two tables to check for specific differences.
 It may be used directly as a worksheet function. 
 Rather than doing this, we suggest using the DEF dialog from the menu bar, especially when using this function for the first time.</p>
-<p><img src="../images/DEF/nav.png" alt="DEF_ribbon"><br><em>Figure 1: location of the DEF ribbon</em> </p>
+<p><img src="../../images/DEF/nav.png" alt="DEF_ribbon"><br><em>Figure 1: location of the DEF ribbon</em> </p>
 <h2 id="example">Example</h2>
 <p>Consider the database of a retailer with two entities: <code>customers2020</code> and <code>customers2021</code>. 
 An attribute of each purchase is the type of membership the customer chose. 
@@ -103,8 +103,8 @@ To identify such changes in large databases, we can use DEF.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align:center"><img src="../images/DEF/customers2020.png" alt="DEF_customers2020"></th>
-<th style="text-align:center"><img src="../images/DEF/customers2021.png" alt="DEF_customers2021"></th>
+<th style="text-align:center"><img src="../../images/DEF/customers2020.png" alt="DEF_customers2020"></th>
+<th style="text-align:center"><img src="../../images/DEF/customers2021.png" alt="DEF_customers2021"></th>
 </tr>
 </thead>
 <tbody>
@@ -118,7 +118,7 @@ To identify such changes in large databases, we can use DEF.</p>
 For instance, in the above example, we may only care about customer IDs 2 and below. 
 The pattern can account for that via the <code>scope</code> parameter and limit the search for violations to that scope. 
 As a result, only the reference to the customer with ID = 1 and ID = 2 would be reported, as shown below: </p>
-<p><img src="../images/DEF/result.png" alt="DEF_result"><br><em>Table 3: executed DEF</em> </p>
+<p><img src="../../images/DEF/result.png" alt="DEF_result"><br><em>Table 3: executed DEF</em> </p>
 <h2 id="settings">Settings</h2>
 <p>The pattern is instantiated via eleven parameters, five related to the source (the outdated table), five to the target (the updated table), and one to the attribute, which will be shown in the resulting table.
 The source and target are each defined via two parameters: </p>
@@ -150,7 +150,7 @@ In the above example, this parameter is set to <code>name</code> as we have been
 </ul>
 <p>In the below screenshot, we illustrate how the parameters would be chosen to implement the example check described above.
 We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quot; with the outdated list of customers stored in the worksheet <code>Customers2020</code> and the updated list stored in a second worksheet named <code>Customers2021</code>. </p>
-<p><img src="../images/DEF/settings.png" alt="DEF_settings"><br><em>Figure 2: DEF settings</em> </p>
+<p><img src="../../images/DEF/settings.png" alt="DEF_settings"><br><em>Figure 2: DEF settings</em> </p>
 </article>
           </div>
           
@@ -159,7 +159,7 @@ We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quo
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/DEF.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/Generators/DEF.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -186,8 +186,8 @@ We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quo
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>

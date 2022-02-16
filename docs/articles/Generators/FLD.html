@@ -20,21 +20,21 @@
     <meta name="description" content="">
     {%- endif -%}
     {%- if _appFaviconPath -%}
-    <link rel="shortcut icon" href="../">
+    <link rel="shortcut icon" href="../../">
     {%- else -%}
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../../favicon.ico">
     {%- endif -%}
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     {%- if _noindex -%}
     <meta name="searchOption" content="noindex">
     {%- endif -%}
     {%- if _enableSearch -%}
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../">
     {%- endif -%}
     {%- if _enableNewTab -%}
     <meta property="docfx:newtab" content="true">
@@ -54,8 +54,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="" width="50" height="50">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="" width="50" height="50">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -94,7 +94,7 @@
 The FLD generator can be used to detect values, that violate these rules or conventions. 
 It may be used directly as a worksheet function. 
 Rather than doing this, we suggest using the FLD dialog from the menu bar, especially when using this function for the first time.</p>
-<p><img src="../images/FLD/nav.png" alt="FLD_ribbon"><br><em>Figure 1: location of the FLD ribbon</em></p>
+<p><img src="../../images/FLD/nav.png" alt="FLD_ribbon"><br><em>Figure 1: location of the FLD ribbon</em></p>
 <h2 id="example">Example</h2>
 <p>Consider the database of a retailer with two entities: <code>purchases</code> and <code>customers</code>. 
 An attribute of each purchase is the id of the customer who carried it out. 
@@ -108,16 +108,16 @@ In the below example, a negative customer_id is referenced.</li>
 <li>Unusual values: suppose our retailer only sells inexpensive items and purchases are always worth under 100. 
 However, one entry in the below example is a mistake. </li>
 </ul>
-<p><img src="../images/FLD/purchases.png" alt="FLD_purchases"><br><em>Table 1: purchases</em></p>
+<p><img src="../../images/FLD/purchases.png" alt="FLD_purchases"><br><em>Table 1: purchases</em></p>
 <p>We may perform checks for an entire table or a defined subset thereof. 
 For instance, in the above example, we may only care about purchases made in 2021. 
 The pattern can account for that via the SCOPE parameter and limit the search for violations to that scope. </p>
 <table>
 <thead>
 <tr>
-<th style="text-align:center"><img src="../images/FLD/result_1.png" alt="FLD_result_1"></th>
-<th style="text-align:center"><img src="../images/FLD/result_2.png" alt="FLD_result_2"></th>
-<th style="text-align:center"><img src="../images/FLD/result_3.png" alt="FLD_result_3"></th>
+<th style="text-align:center"><img src="../../images/FLD/result_1.png" alt="FLD_result_1"></th>
+<th style="text-align:center"><img src="../../images/FLD/result_2.png" alt="FLD_result_2"></th>
+<th style="text-align:center"><img src="../../images/FLD/result_3.png" alt="FLD_result_3"></th>
 </tr>
 </thead>
 <tbody>
@@ -150,9 +150,9 @@ When left blank, the entire table will be checked. </p>
 We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quot; with purchases stored in the worksheet &quot;Purchases&quot;. 
 In Figure 1 we check for negative prices, which we call impossible. 
 Figure 2 shows the FLD settings to check for convention violation by negative <code>customer_id</code>.</p>
-<p><img src="../images/FLD/settings_1.png" alt="FLD_settings_1">
+<p><img src="../../images/FLD/settings_1.png" alt="FLD_settings_1">
 <em>Figure 2: FLD settings to perform check on price</em></p>
-<p><img src="../images/FLD/settings_2.png" alt="FLD_settings_2">
+<p><img src="../../images/FLD/settings_2.png" alt="FLD_settings_2">
 <em>Figure 3: FLD settings to perform check on price</em></p>
 </article>
           </div>
@@ -161,6 +161,9 @@ Figure 2 shows the FLD settings to check for convention violation by negative <c
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/Generators/FLD.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
@@ -186,8 +189,8 @@ Figure 2 shows the FLD settings to check for convention violation by negative <c
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>

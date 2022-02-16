@@ -20,21 +20,21 @@
     <meta name="description" content="">
     {%- endif -%}
     {%- if _appFaviconPath -%}
-    <link rel="shortcut icon" href="../">
+    <link rel="shortcut icon" href="../../">
     {%- else -%}
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../../favicon.ico">
     {%- endif -%}
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     {%- if _noindex -%}
     <meta name="searchOption" content="noindex">
     {%- endif -%}
     {%- if _enableSearch -%}
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../">
     {%- endif -%}
     {%- if _enableNewTab -%}
     <meta property="docfx:newtab" content="true">
@@ -54,8 +54,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="" width="50" height="50">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="" width="50" height="50">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -94,7 +94,7 @@
 It can be used, for instance, to compare the set of objects in different versions of the same table (e.g. in test vs. production) or the sets of objects within different subsets (scopes) of the same table. </p>
 <p>The SET generator may be used directly as a worksheet function. 
 Rather than doing this, we suggest using the SET dialog from the menu bar, especially when using this function for the first time.</p>
-<p><img src="../images/SET/nav.png" alt="SET_ribbon"><br><em>Figure 1: location of the SET ribbon</em></p>
+<p><img src="../../images/SET/nav.png" alt="SET_ribbon"><br><em>Figure 1: location of the SET ribbon</em></p>
 <h2 id="example">Example</h2>
 <p>Consider the database of a retailer with two entities: <code>customers2020</code> and <code>customers2021</code>. 
 They describe which customers made purchases in the respective two years. 
@@ -102,8 +102,8 @@ We can see that some of the 2020 customers did not make any purchases in 2021, w
 <table>
 <thead>
 <tr>
-<th style="text-align:center"><img src="../images/SET/customers2020.png" alt="SET_customers2020"></th>
-<th style="text-align:center"><img src="../images/SET/customers2021.png" alt="SET_customers2021"></th>
+<th style="text-align:center"><img src="../../images/SET/customers2020.png" alt="SET_customers2020"></th>
+<th style="text-align:center"><img src="../../images/SET/customers2021.png" alt="SET_customers2021"></th>
 </tr>
 </thead>
 <tbody>
@@ -126,8 +126,8 @@ The output generated under the five different modes is illustrated below using t
 <table>
 <thead>
 <tr>
-<th style="text-align:center"><img src="../images/SET/intersect.png" alt="SET_intersect"></th>
-<th style="text-align:center"><img src="../images/SET/target_not_source.png" alt="SET_target_not_source"></th>
+<th style="text-align:center"><img src="../../images/SET/intersect.png" alt="SET_intersect"></th>
+<th style="text-align:center"><img src="../../images/SET/target_not_source.png" alt="SET_target_not_source"></th>
 </tr>
 </thead>
 <tbody>
@@ -136,15 +136,15 @@ The output generated under the five different modes is illustrated below using t
 <td style="text-align:center"><em>Table 4: TARGET_NOT_SOURCE</em></td>
 </tr>
 <tr>
-<td style="text-align:center"><img src="../images/SET/source_not_target.png" alt="SET_source_not_target"></td>
-<td style="text-align:center"><img src="../images/SET/except.png" alt="SET_except"></td>
+<td style="text-align:center"><img src="../../images/SET/source_not_target.png" alt="SET_source_not_target"></td>
+<td style="text-align:center"><img src="../../images/SET/except.png" alt="SET_except"></td>
 </tr>
 <tr>
 <td style="text-align:center"><em>Table 5: SOURCE_NOT_TARGET</em></td>
 <td style="text-align:center"><em>Table 6: EXCEPT</em></td>
 </tr>
 <tr>
-<td style="text-align:center"><img src="../images/SET/all.png" alt="SET_all"></td>
+<td style="text-align:center"><img src="../../images/SET/all.png" alt="SET_all"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
@@ -179,7 +179,7 @@ It is an optional parameter.
 When left blank, the scope is the entire table. 
 In the below screenshot, we illustrate how the parameters would be chosen to implement the example check described above. 
 We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quot; with the 2020 customers stored in the worksheet &quot;Customers2020&quot; and the 2021 customers stored in a second worksheet named &quot;Customers2021&quot;. </p>
-<p><img src="../images/SET/settings.png" alt="SET_settings"> 
+<p><img src="../../images/SET/settings.png" alt="SET_settings"> 
 <em>Figure 2: SET settings</em></p>
 </article>
           </div>
@@ -189,7 +189,7 @@ We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quo
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/SET.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/Generators/SET.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -216,8 +216,8 @@ We assume, that the data is stored in an Excel workbook &quot;Test_Data.xlsx&quo
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>

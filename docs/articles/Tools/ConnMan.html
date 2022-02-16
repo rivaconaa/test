@@ -20,21 +20,21 @@
     <meta name="description" content="">
     {%- endif -%}
     {%- if _appFaviconPath -%}
-    <link rel="shortcut icon" href="../">
+    <link rel="shortcut icon" href="../../">
     {%- else -%}
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../../favicon.ico">
     {%- endif -%}
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     {%- if _noindex -%}
     <meta name="searchOption" content="noindex">
     {%- endif -%}
     {%- if _enableSearch -%}
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../">
     {%- endif -%}
     {%- if _enableNewTab -%}
     <meta property="docfx:newtab" content="true">
@@ -54,8 +54,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="" width="50" height="50">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="" width="50" height="50">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -91,9 +91,9 @@
 
 <h5 id="connecting-external-databases-and-workbooks">Connecting external databases and workbooks</h5>
 <p>With the Connection Manager, it is possible to establish a connection to different types of databases and external workbooks.</p>
-<p><img src="../images/ConnMan/nav.png" alt="ConnMan_ribbon"><br><em>Figure 1: Navigation to the Connection Manager</em> </p>
+<p><img src="../../images/ConnMan/nav.png" alt="ConnMan_ribbon"><br><em>Figure 1: Navigation to the Connection Manager</em> </p>
 <h2 id="overview">Overview</h2>
-<p><img src="../images/ConnMan/overview.png" alt="ConnMan_overview"><br><em>Figure 2: Connection Manager Overview</em> </p>
+<p><img src="../../images/ConnMan/overview.png" alt="ConnMan_overview"><br><em>Figure 2: Connection Manager Overview</em> </p>
 <p>The &quot;Active Connections&quot; section gives an overview of all connections. 
 To use a data source for a query, reference its CONNECTION ID. 
 Therefore, Connection IDs may not be used twice. </p>
@@ -104,18 +104,18 @@ They make it possible to create SQL queries with our generators for any database
 <p>Dummy connections can be accessed by a <code>//</code> combined with the name of a data source type. 
 So instead of choosing <code>Postgres</code> or <code>IMB</code> (see Figure 2), you can create the same query with <code>//PostgreSQL</code> or <code>//DB2</code> as the connection id as in Figure 3. 
 This feature is only available for the worksheet functions: </p>
-<p><img src="../images/ConnMan/dummy_example.png" alt="ConnMan_dummy_example"><br><em>Figure 3: Example of a dummy connection for PostgreSQL</em> </p>
+<p><img src="../../images/ConnMan/dummy_example.png" alt="ConnMan_dummy_example"><br><em>Figure 3: Example of a dummy connection for PostgreSQL</em> </p>
 <h2 id="manage-connections">Manage Connections</h2>
 <p>There are three buttons for manually editing the set of active connections. </p>
 <h4 id="add">Add</h4>
 <p>If you would like to add a new ODBC connection, please make sure, that you can find it in the &quot;ODBC data sources&quot; manager in windows. 
 After pressing the <code>Add</code> button, you will see another window, which is shown below. 
 You can choose an arbitrary connection id, which will be later used to reference the data source in generators and worksheet functions.</p>
-<p><img src="../images/ConnMan/add_odbc.png" alt="ConnMan_add_odbc"><br><em>Figure 4: &quot;Add new connection&quot; window for ODBC database</em> </p>
+<p><img src="../../images/ConnMan/add_odbc.png" alt="ConnMan_add_odbc"><br><em>Figure 4: &quot;Add new connection&quot; window for ODBC database</em> </p>
 <p>To add an Excel workbook as a data source, simply choose a connection id and input its path. 
 Note, that the workbook must be saved either locally or in OneDrive. 
 Other Cloud services are not supported in this version of RIVALYTICS.</p>
-<p><img src="../images/ConnMan/add_excel.png" alt="ConnMan_add_excel"><br><em>Figure 5: &quot;Add new connection&quot; window for Excel database</em> </p>
+<p><img src="../../images/ConnMan/add_excel.png" alt="ConnMan_add_excel"><br><em>Figure 5: &quot;Add new connection&quot; window for Excel database</em> </p>
 <h4 id="edit">Edit</h4>
 <p>To edit a connection, the windows from Figures 3 and 4 will appear again to make modifications. 
 You can edit every connection except for &quot;ThisWorkbook&quot;.</p>
@@ -145,7 +145,7 @@ To perform the connection test one again, press the &quot;Test connection&quot; 
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/ConnMan.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/Tools/ConnMan.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -172,8 +172,8 @@ To perform the connection test one again, press the &quot;Test connection&quot; 
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>

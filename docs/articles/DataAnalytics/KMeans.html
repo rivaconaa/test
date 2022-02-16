@@ -20,21 +20,21 @@
     <meta name="description" content="">
     {%- endif -%}
     {%- if _appFaviconPath -%}
-    <link rel="shortcut icon" href="../">
+    <link rel="shortcut icon" href="../../">
     {%- else -%}
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../../favicon.ico">
     {%- endif -%}
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     {%- if _noindex -%}
     <meta name="searchOption" content="noindex">
     {%- endif -%}
     {%- if _enableSearch -%}
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../">
     {%- endif -%}
     {%- if _enableNewTab -%}
     <meta property="docfx:newtab" content="true">
@@ -54,8 +54,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="" width="50" height="50">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="" width="50" height="50">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -100,14 +100,14 @@ Those are called Setosa, Virginica and Versicolor.</p>
 <p>For each subspecies, the data contains 50 data points with four measurements each. 
 As seen in Figure 1 below, the attributes are <code>sepal length</code>, <code>sepal width</code>, <code>petal length</code>, <code>petal width</code>, and <code>species</code>.
 The first four are the numeric measurements and the last one is the label.</p>
-<p><img src="../images/KMeans/Iris_head.png" alt="Iris_head"><br><em>Figure 1: First entries of the Iris flower data set</em></p>
+<p><img src="../../images/KMeans/Iris_head.png" alt="Iris_head"><br><em>Figure 1: First entries of the Iris flower data set</em></p>
 <p>In this case, we already have labeled data, so we know which species every measurement stems from.
 We can plot the data and see, that the different species form clusters based on their leaf sizes (Figure 2 and 3).</p>
 <table>
 <thead>
 <tr>
-<th style="text-align:center"><img src="../images/KMeans/Iris_pp_sepal.png" alt="KMeans_Iris_pp_sepal"></th>
-<th style="text-align:center"><img src="../images/KMeans/Iris_pp_petal.png" alt="KMeans_Iris_pp_petal"></th>
+<th style="text-align:center"><img src="../../images/KMeans/Iris_pp_sepal.png" alt="KMeans_Iris_pp_sepal"></th>
+<th style="text-align:center"><img src="../../images/KMeans/Iris_pp_petal.png" alt="KMeans_Iris_pp_petal"></th>
 </tr>
 </thead>
 <tbody>
@@ -128,9 +128,9 @@ As for the number of steps, the default is set to 50, which should be sufficient
 Nonetheless, if the amount of data is little, choosing more steps will not noticeably slow down the calculation.
 Therefore, the number of steps is set to 500.
 The filled-in settings can be seen in Figure 4.</p>
-<p><img src="../images/KMeans/settings.png" alt="KMeans_settings"><br><em>Figure 4: K Means Clustering settings</em></p>
+<p><img src="../../images/KMeans/settings.png" alt="KMeans_settings"><br><em>Figure 4: K Means Clustering settings</em></p>
 <p>After executing the function, a new table will be pasted containing the (possibly scaled) coordinates and their computed cluster (Figure 5).</p>
-<p><img src="../images/KMeans/clustering_head.png" alt="KMeans_clustering_head"><br><em>Figure 5: First entries from the K Means Clustering result</em></p>
+<p><img src="../../images/KMeans/clustering_head.png" alt="KMeans_clustering_head"><br><em>Figure 5: First entries from the K Means Clustering result</em></p>
 <p>Luckily, we have information on the actual species.
 This gives us the chance to check the accuracy of the algorithm for the underlying data set and clustering settings.
 134 of 150 data points were classified correctly, which corresponds to an accuracy of about 89.3%.</p>
@@ -157,7 +157,7 @@ Constantin: gibt es hier eine Empfehlung / Richtwert? Was soll man machen, wenn 
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/KMeans.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/RIVACON/Rivalytics/blob/docFX/Rivalytics/articles/DataAnalytics/KMeans.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -184,8 +184,8 @@ Constantin: gibt es hier eine Empfehlung / Richtwert? Was soll man machen, wenn 
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>
