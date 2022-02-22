@@ -94,10 +94,10 @@
 It can only be applied to 2-dimensional data and can show you a plot of the results.
 This article builds on the previous guide on the regular &quot;K Means Clustering&quot;. 
 We recommend reading the other article before proceeding with the current one.
-The reason for a seperate K Means Clustering function for two dimension is, that diagrams can be created in 2D.</p>
+The reason for a separate K Means Clustering function for two dimensions is, that diagrams can be created in 2D.</p>
 <h2 id="example">Example</h2>
 <p>Once again, we are using the Iris flower data set.
-As we might have noticed from the pair plots below, the petal measurements have more predictive value as clusters can be clearly observed in Figure 3.
+As we might have noticed from the pair plots below, the petal measurements have more predictive value as clusters can be observed in Figure 3.
 In Figure 2 however, the crosssections of the measurement sets are far greater.
 As already mentioned, <code>KMEANS2D</code> can only process 2-dimensional data, therefore it would be reasonable to choose the petal measurements.
 Note, that for optimal performance, you should not leave out any data by using the regular <code>KMeans</code>.</p>
@@ -115,7 +115,7 @@ Note, that for optimal performance, you should not leave out any data by using t
 </tr>
 </tbody>
 </table>
-<p>To apply <code>KMeans2D</code>, we seperately select the petal length and width as data for the x and y axis.
+<p>To apply <code>KMeans2D</code>, we separately select the petal length and width as data for the x and y-axis.
 The number of clusters can also stay as 3 because we still have three species as classes.
 We would like to plot a diagram of the found clusters, therefore the next parameter will be set to 1.
 &quot;Iris petal clustering&quot; will be shown as the title of the plot and the cluster visibility is set to 1.
@@ -127,8 +127,8 @@ The last two parameters are set to the default values as in the previous article
 <p>To apply the clustering to your data, the <code>KMEANS2D</code> function requires two compulsory and three optional parameters.
 The compulsory parameters consist of:</p>
 <ul>
-<li><code>X-axis</code> the Excel cell range for the first dimension of the data entries.</li>
-<li><code>Y-axis</code> the Excel cell range for the second dimension of the data entries.
+<li><code>X-axis</code> is the Excel cell range for the first dimension of the data entries.</li>
+<li><code>Y-axis</code> is the Excel cell range for the second dimension of the data entries.
 Note, that the header (top row containing the column names) should <strong>not</strong> be included. </li>
 <li><code>Number of clusters</code> is the number of clusters, that you expect. </li>
 </ul>

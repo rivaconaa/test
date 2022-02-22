@@ -99,7 +99,7 @@ It contains measurements of the length and width of three subspecies of the Iris
 Those are called Setosa, Virginica and Versicolor.</p>
 <p>For each subspecies, the data contains 50 data points with four measurements each. 
 As seen in Figure 1 below, the attributes are <code>sepal length</code>, <code>sepal width</code>, <code>petal length</code>, <code>petal width</code>.
-We now want to find clusters of datapoints to then classify the data points into three different species.</p>
+We now want to find clusters of data points to then classify the data points into three different species.</p>
 <p><img src="../../images/KMeans/Iris_head.png" alt="Iris_head"><br><em>Figure 1: First entries of the Iris flower data set</em></p>
 <p>We will try to divide the data into three clusters using the K Means Clustering algorithm.</p>
 <p>For this, we specify the data range as <code>A2:D151</code>, as this is the range of Excel cells, in which the measurements lie in.
@@ -126,13 +126,13 @@ Note, that the header (top row containing the column names) should <strong>not</
 <li><code>Number of clusters</code> is the number of clusters, that you expect. </li>
 </ul>
 <p>Each cluster has a centroid, which can be thought of as the center of mass of the data points assigned to the respective cluster.</p>
-<p>To prevent, that data attributes with big absolute values overweigh other attributes, applying a transformation to preprocess the data might make sense.</p>
+<p>To prevent data attributes with big absolute values overweighing other attributes, applying a transformation to preprocess the data might make sense.</p>
 <ul>
 <li><p><code>Transformation</code> </p>
 <ul>
 <li>0 will perform the algorithm on the raw data</li>
-<li>1 will apply the gaussian normalization by subtracting the data by it&#39;s mean and diving it by the standard deviation.</li>
-<li>2 will apply the min-max normalization by subtracting the data by it&#39;s minimum value and diving it by the min-max spread.</li>
+<li>1 will apply the gaussian normalization by subtracting the data by its mean and diving it by the standard deviation.</li>
+<li>2 will apply the min-max normalization by subtracting the data by its minimum value and diving it by the min-max spread.</li>
 </ul>
 </li>
 <li><p><code>Iterations</code> specifies the number of steps, that will be performed, the default is 50.
