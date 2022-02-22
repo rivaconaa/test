@@ -122,25 +122,28 @@ We would like to plot a diagram of the found clusters, therefore the next parame
 The last two parameters are set to the default values as in the previous article.</p>
 <p><img src="../../images/KMeans2D/settings.png" alt="KMeans2D_settings"><br><em>Figure 3: 2D K Means Clustering settings</em></p>
 <p>After executing the function, a new table will be pasted containing the (possibly scaled) coordinates and their computed cluster (Figure 5).</p>
-<p><img src="../../images/KMeans/clustering_head.png" alt="KMeans_clustering_head"><br><em>Figure 5: First entries from the K Means Clustering result</em></p>
+<p><img src="../../images/KMeans2D/clustering_head.png" alt="KMeans2D_clustering_head"><br><em>Figure 5: First entries from the K Means Clustering result</em></p>
 <h2 id="settings">Settings</h2>
 <p>To apply the clustering to your data, the <code>KMEANS2D</code> function requires two compulsory and three optional parameters.
 The compulsory parameters consist of:</p>
 <ul>
-<li><code>Input range</code> specifies the range of Excel cells, that your data uses. 
+<li><code>X-axis</code> the Excel cell range for the first dimension of the data entries.</li>
+<li><code>Y-axis</code> the Excel cell range for the second dimension of the data entries.
 Note, that the header (top row containing the column names) should <strong>not</strong> be included. </li>
-<li><p><code>number of clusters</code> is the number of clusters, that you expect. 
-Constantin: gibt es hier eine Empfehlung / Richtwert? Was soll man machen, wenn wenig Ahnung von K means hat?</p>
-</li>
-<li><p><code>Create plot with clustering results</code></p>
-</li>
-<li><code>plot title</code></li>
+<li><code>Number of clusters</code> is the number of clusters, that you expect. </li>
+</ul>
+<p>The next three parameters activate the unique feature of this function, the data plot:</p>
+<ul>
+<li><code>Create plot with clustering results</code> entering a 1 will create a 2D plot of the data, the default is 0.</li>
+<li><code>Plot title</code> is a string, that will be used as the title of the created plot.</li>
+<li><code>Show Centroids</code> will show the positions of each centroid if 1 is entered. 
+For the default value 0, the centroid will not be visible.</li>
 </ul>
 <p>Each cluster has a centroid, which can be thought of as the center of mass of the data points assigned to the respective cluster.</p>
 <ul>
-<li>Setting <code>Show Centroids</code> to 1 will show the coordinates of the centroids.</li>
 <li><code>Transformation</code> </li>
-<li><code>Iterations</code></li>
+<li><code>Iterations</code> specifies the number of steps, that will be performed, the default is 50.
+For larger data sets, usually more steps are required, however, the runtime might noticeably increase.</li>
 </ul>
 </article>
           </div>

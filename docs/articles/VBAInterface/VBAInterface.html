@@ -159,18 +159,21 @@ End Function
         validConnectionId = True
     End If
 End Function
-</code></pre><h2 id="test">TEST</h2>
-<pre><code>Sub UnitTesting()
-    MsgBox vbUNI(&quot;//&quot;, &quot;&lt;table&gt;&quot;, &quot;&lt;unikey&gt;&quot;, &quot;&quot;)
-    MsgBox vbREF(&quot;//&quot;, &quot;&lt;sourceTable&gt;&quot;, &quot;&lt;targetTable&gt;&quot;, &quot;&lt;sourceKey&gt;&quot;, &quot;&lt;targetKey&gt;&quot;, &quot;&lt;sourceScope&gt;&quot;, &quot;&lt;targetScope&gt;&quot;)
-    MsgBox vbDEF(&quot;//&quot;, &quot;&lt;sourceTable&gt;&quot;, &quot;&lt;targetTable&gt;&quot;, &quot;&lt;sourceLinkKey&gt;&quot;, &quot;&lt;targetLinkKey&gt;&quot;, _
-                         &quot;&lt;sourceObjectDef&gt;&quot;, &quot;&lt;targetObjectDef&gt;&quot;, &quot;&lt;targetAttribute&gt;&quot;, &quot;&lt;sourceScope&gt;&quot;, &quot;&lt;targetScope&gt;&quot;)
-    MsgBox vbFLD(&quot;//&quot;, &quot;&lt;table&gt;&quot;, &quot;&lt;field&gt;&quot;, &quot;&lt;check&gt;&quot;, &quot;&lt;scope&gt;&quot;)
-    MsgBox vbSET(&quot;//POSTGREs&quot;, &quot;&lt;sourceTable&gt;&quot;, &quot;&lt;targetTable&gt;&quot;, &quot;&lt;sourceKey&gt;&quot;, &quot;&lt;targetKey&gt;&quot;, &quot;ALL&quot;, &quot;&lt;sourceScope&gt;&quot;, &quot;&lt;targetScope&gt;&quot;)
-    MsgBox vbVAL(&quot;//&quot;, &quot;&lt;sourceTable&gt;&quot;, &quot;&lt;targetTable&gt;&quot;, &quot;&lt;sourceGroupBy&gt;&quot;, &quot;&lt;targetGroupBy&gt;&quot;, _
-                &quot;&lt;sourceObjectDef&gt;&quot;, &quot;&lt;targetObjectDef&gt;&quot;, &quot;aggOpr&quot;, &quot;DELTA&quot;)
+</code></pre><!---
+## TEST
+```
+Sub UnitTesting()
+    MsgBox vbUNI("//", "<table>", "<unikey>", "")
+    MsgBox vbREF("//", "<sourceTable>", "<targetTable>", "<sourceKey>", "<targetKey>", "<sourceScope>", "<targetScope>")
+    MsgBox vbDEF("//", "<sourceTable>", "<targetTable>", "<sourceLinkKey>", "<targetLinkKey>", _
+                         "<sourceObjectDef>", "<targetObjectDef>", "<targetAttribute>", "<sourceScope>", "<targetScope>")
+    MsgBox vbFLD("//", "<table>", "<field>", "<check>", "<scope>")
+    MsgBox vbSET("//POSTGREs", "<sourceTable>", "<targetTable>", "<sourceKey>", "<targetKey>", "ALL", "<sourceScope>", "<targetScope>")
+    MsgBox vbVAL("//", "<sourceTable>", "<targetTable>", "<sourceGroupBy>", "<targetGroupBy>", _
+                "<sourceObjectDef>", "<targetObjectDef>", "aggOpr", "DELTA")
 End Sub
-</code></pre></article>
+```
+--></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
