@@ -24,7 +24,7 @@
           "hash": "9J8BXJJJOGYyTn4g+2rZ4WxGpiuFMUx3uBOFS0qx19s="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "1MSQcN+t0gVZfmRSLvZFS7D52gQ2SMrdJ7O63fz+Tnk="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/DataAnalytics/KMeans2D.html",
-          "hash": "YfwO/41QmXpbPNvtb+8nk3Wr3qYUciZR1s8u98rkrsM="
+          "hash": "Eec9juxRWdjbEpWmjDt8VSrdfVgsq162wT7DCiFV1wc="
         }
       },
       "is_incremental": false,
@@ -108,7 +108,7 @@
           "hash": "Q4UqF3GMSqan6wsZoRURQyzBq+5J7+aSWbakEc8/N/0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -228,7 +228,7 @@
           "hash": "FqbMEPAeEBjnnXcaKQLr4EqkzDCbCJKWTY5H+ShDdAE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1154,7 +1154,7 @@
           "hash": "IAv5wObXYuoAqDQHNgdNhUF/3lx53O2FlFE7XoeGn/Y="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1831,7 +1831,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 20,
-          "skipped_file_count": 14
+          "skipped_file_count": 19
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

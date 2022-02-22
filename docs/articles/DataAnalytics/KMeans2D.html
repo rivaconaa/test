@@ -141,7 +141,12 @@ For the default value 0, the centroid will not be visible.</li>
 </ul>
 <p>Each cluster has a centroid, which can be thought of as the center of mass of the data points assigned to the respective cluster.</p>
 <ul>
-<li><code>Transformation</code> </li>
+<li><code>Transformation</code> <ul>
+<li>0 will perform the algorithm on the raw data</li>
+<li>1 will apply the gaussian normalization by subtracting the data by its mean and diving it by the standard deviation.</li>
+<li>2 will apply the min-max normalization by subtracting the data by its minimum value and diving it by the min-max spread.</li>
+</ul>
+</li>
 <li><code>Iterations</code> specifies the number of steps, that will be performed, the default is 50.
 For larger data sets, usually more steps are required, however, the runtime might noticeably increase.</li>
 </ul>
